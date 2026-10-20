@@ -1,0 +1,15 @@
+name: Documentation checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - name: Validate documentation and public file scope
+        run: python3 scripts/validate_docs.py

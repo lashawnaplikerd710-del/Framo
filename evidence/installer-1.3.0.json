@@ -1,0 +1,52 @@
+{
+  "version": "1.3.0",
+  "file_name": "Framo-Setup-1.3.0.exe",
+  "bytes": 1591784802,
+  "sha256": "95062db9c7d2859f0f8b337c773c3bb5acd196b7ef5abfb38f2d4b571bb5ca20",
+  "installer_file_hash_checked_this_round": true,
+  "installer_run_this_round": false,
+  "release_payload_modules": 91,
+  "runtime_module_differences": [
+    {
+      "module": "direct_renderer.py",
+      "release_sha256": "7954f4426184da0690cd63dfadd32ea1418b8530a3460910a13d6a0bb3c54910",
+      "runtime_sha256": "fd8ea754b08a64fd7ebd24f434fa71adf110f122d8bb9ec6cf5f8f289760dada"
+    },
+    {
+      "module": "independent_export.py",
+      "release_sha256": "a715e6e4866b39f87a9d2a5d4d8d19c50e8ceea4cba2567b77a7bac421c2edd6",
+      "runtime_sha256": "be9325395873e8219e68b5dabb4f22c8583e72ce62608fdba166ad4912cf57a6"
+    },
+    {
+      "module": "locked_opening.py",
+      "release_sha256": "9cc9c8856cbb0f64ca8a75311a1053a51245f2896b83ecbfb1bfa5196611fde6",
+      "runtime_sha256": "d28178fef30cf0a4a8ca9d443f90adff836c35a56a18644de42edc2fc478dcaf"
+    },
+    {
+      "module": "original_montage.py",
+      "release_sha256": "df4aaa899ea2fcdce5495b669dfd3c0bb42e3d2aaa7e8e8cbf04fc6c5af1667f",
+      "runtime_sha256": "148e39c7e261aa1e38be15170970f86894a7b145dab270cc25225a46fb4fc9d7"
+    },
+    {
+      "module": "original_montage_render.py",
+      "release_sha256": "f768e4ff74b2799e4e97b0e14a0de5c5205bd272ac586d1b74dddb25bab2f439",
+      "runtime_sha256": "43009d90e9054c12779864d1eb8b11600cd72f95292dd8f92017173f5859704c"
+    },
+    {
+      "module": "task_service.py",
+      "release_sha256": "4ad77b10ec0e2c4cd1525803b8b9121de3731accb08407a855df234f4c5dc6b4",
+      "runtime_sha256": "6f6a9e921e472831d1a15499386e529b180344b67f58c72e78f80b8b16cdbb2a"
+    },
+    {
+      "module": "version.py",
+      "release_sha256": "da255b6c8ef1eb69e5263deb1e54601eb5b0ce3f3efe73db626b125ed09b9929",
+      "runtime_sha256": "000b968638b2b8c022eb6503b7a0ec0194083e9e2a01d631593391e22ce9f515"
+    }
+  ],
+  "release_locked_opening_sha256": "9cc9c8856cbb0f64ca8a75311a1053a51245f2896b83ecbfb1bfa5196611fde6",
+  "runtime_locked_opening_sha256": "d28178fef30cf0a4a8ca9d443f90adff836c35a56a18644de42edc2fc478dcaf",
+  "batch_diverse_opening_in_release": false,
+  "batch_diverse_opening_in_local_runtime": true,
+  "historical_report_scope": "Same-PC isolated install and upgrade; not another physical PC and not a new online editing task",
+  "not_uploaded_to_github": true
+}

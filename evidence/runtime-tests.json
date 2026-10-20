@@ -1,0 +1,21 @@
+{
+  "implementation": "runtime",
+  "modules": [
+    "test_locked_opening",
+    "test_original_montage",
+    "test_long_video",
+    "test_editing_rules",
+    "test_batch_model",
+    "test_render_progress",
+    "test_installed_runtime",
+    "test_provider"
+  ],
+  "tests_run": 87,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "success": true,
+  "elapsed_s": 4.75,
+  "network_model_calls": false,
+  "scope": "Selected offline regression only; no installer or live provider acceptance"
+}

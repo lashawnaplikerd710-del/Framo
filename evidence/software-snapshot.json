@@ -1,0 +1,108 @@
+{
+  "snapshot_id": "framo-docs-20261020",
+  "date": "2026-10-20",
+  "timezone": "Asia/Shanghai",
+  "public_repository_mode": "documentation_only_private_application_source",
+  "source_version": "1.3.0",
+  "runtime_version": "1.2",
+  "old_public_version": "1.2.1",
+  "source_modules": 90,
+  "runtime_modules": 91,
+  "different_module_entries": [
+    {
+      "path": "agent_core/auto_decorations.py",
+      "source_sha256": "09d40db3a400a3c60175471cfd3613b5ad77f621b9ad12cc0190e6cbb0cce2ca",
+      "runtime_sha256": "44f20b67d3d09f6a688799a51568aae6b4710b97f6c81d97cd1af0bb24cc8afa"
+    },
+    {
+      "path": "agent_core/direct_renderer.py",
+      "source_sha256": "d79ead004a9c879a40486cda68bd6d010e6245e4a0eb2a3e2659348bc2de83ae",
+      "runtime_sha256": "fd8ea754b08a64fd7ebd24f434fa71adf110f122d8bb9ec6cf5f8f289760dada"
+    },
+    {
+      "path": "agent_core/direct_vision.py",
+      "source_sha256": "a8a00d1d07913bbc5719eb90a254a1e4a41e141e96edf069bd94a766b6a14dce",
+      "runtime_sha256": "89c29cdaa5f1a06a356f9db468c82a2ed29f7cdd1602bcbe965b6cf2febc3161"
+    },
+    {
+      "path": "agent_core/framo_supplements.py",
+      "source_sha256": null,
+      "runtime_sha256": "720778e202874f98a5222aba9c13388f5415cf6b210e634fc4d93d0d62531547"
+    },
+    {
+      "path": "agent_core/independent_export.py",
+      "source_sha256": "9fdfa360dde86a65232dcf9e483cf7172b19635e1bd76e1bc279c1b4dacfe1bf",
+      "runtime_sha256": "be9325395873e8219e68b5dabb4f22c8583e72ce62608fdba166ad4912cf57a6"
+    },
+    {
+      "path": "agent_core/local_voice.py",
+      "source_sha256": "9dd4906c8e9dd942ee822df7295bc708933ff6e72a42397f45145a4500aa192b",
+      "runtime_sha256": "ddc1ad525a46d4586cb3254dc89e2aaf2282ed6fad0fd956dec8cc6bd58ee9cc"
+    },
+    {
+      "path": "agent_core/long_video.py",
+      "source_sha256": "574b0bbbb12c9330a1c3e42fca33bc19a1bc98098bf56aa392b20d1d206b5f3b",
+      "runtime_sha256": "9b182f1cc5edd65878db3d8a76303df33318dba0c08f4661f0d73e26afbeb079"
+    },
+    {
+      "path": "agent_core/montage.py",
+      "source_sha256": "66bc7d1586de9d84312875331649742a8f2f551e3967061dd01b708941288a1b",
+      "runtime_sha256": "575b759938fe29ea3ad3953859ea32e0552590378dfdbcb65880e9ee8a4d9a0f"
+    },
+    {
+      "path": "agent_core/original_montage.py",
+      "source_sha256": "d63815be32f8e02e83431f580f30a7183353e32e5dd386783a952baaa2786caf",
+      "runtime_sha256": "148e39c7e261aa1e38be15170970f86894a7b145dab270cc25225a46fb4fc9d7"
+    },
+    {
+      "path": "agent_core/original_montage_render.py",
+      "source_sha256": "9d74ed9676a8580e7d2c31f939ea89ff34d73b07fff93006da45b47bd6878629",
+      "runtime_sha256": "43009d90e9054c12779864d1eb8b11600cd72f95292dd8f92017173f5859704c"
+    },
+    {
+      "path": "agent_core/provider.py",
+      "source_sha256": "6d5ef8b872f5b77c5648ff4977a33e4a00455f8b913bf8eff4a2d77ee5553eb9",
+      "runtime_sha256": "1a5eb8a547b6cd1c500a35baab106b0eaaa5ca775c1eadc673cdb1fdb3b42cf8"
+    },
+    {
+      "path": "agent_core/sound_design.py",
+      "source_sha256": "3057f3ca42509d64d068422cea5439d71060a5f04a67b7c2c4570a853a29c6ac",
+      "runtime_sha256": "b30912509f6f8bb381e64a5242ad177eba1a8b2e8d042bd4677863e06b58e889"
+    },
+    {
+      "path": "agent_core/task_service.py",
+      "source_sha256": "080f1967ae067647a08fe3ce02d601afed1ffe7664f0468394c6030f37c8ef4d",
+      "runtime_sha256": "6f6a9e921e472831d1a15499386e529b180344b67f58c72e78f80b8b16cdbb2a"
+    },
+    {
+      "path": "agent_core/task_store.py",
+      "source_sha256": "93733705e3fcf7259666341dcd4f08d904d1b54b92bf99d91a200f209ba82e30",
+      "runtime_sha256": "8067bb9bde4f1b356ba94711efb6d946f76375e2f38871c48c8f75f0375cb377"
+    },
+    {
+      "path": "agent_core/version.py",
+      "source_sha256": "34a4f7712e065f8f6a879fe87efc5b0917cfe38bf50d66e54b979c2f7a68a71f",
+      "runtime_sha256": "000b968638b2b8c022eb6503b7a0ec0194083e9e2a01d631593391e22ce9f515"
+    },
+    {
+      "path": "agent_core/visual_presets.py",
+      "source_sha256": "88b2d8f1753e742c5aa86e85e81e30dd5000b218c7aff1b532c8c7d6c8199593",
+      "runtime_sha256": "c15bbbf7b679a128db4c694754dffac1d85fc79a53185ffc82c74950defe006d"
+    }
+  ],
+  "voice_catalog": {
+    "total": 69,
+    "zh-CN": 10,
+    "zh-CN_female": 5,
+    "zh-CN_male": 5,
+    "ja-JP": 9,
+    "en-US": 50
+  },
+  "resource_catalog": {
+    "font_families": 54,
+    "sticker_entries": 151,
+    "sound_entries": 24
+  },
+  "core_source_distributed": false,
+  "new_application_release_created": false
+}

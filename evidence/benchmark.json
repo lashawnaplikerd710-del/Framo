@@ -1,0 +1,21 @@
+{
+  "scope": "Historical single same-input local encoding comparison; not end-to-end or cross-hardware benchmark",
+  "source_duration_s": 18.266667,
+  "width": 1080,
+  "height": 1920,
+  "frames": 548,
+  "runs": [
+    {
+      "encoder_threads": 1,
+      "elapsed_s": 39.531
+    },
+    {
+      "encoder_threads": 4,
+      "elapsed_s": 23.625
+    }
+  ],
+  "speedup_in_this_sample": 1.6732698412698412,
+  "ssim_all": 0.996377,
+  "audio_present_in_both": true,
+  "fresh_rerun": false
+}
