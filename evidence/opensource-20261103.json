@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-03",
+  "license": "MIT",
+  "first_party_core_modules": 93,
+  "core_tests": {
+    "run": 87,
+    "failures": 0,
+    "errors": 0,
+    "network_calls": false
+  },
+  "gateway_tests": {
+    "run": 16,
+    "failures": 0,
+    "network_calls": false
+  },
+  "cli_config_doctor_passed": true,
+  "desktop_help_import_passed": true,
+  "models_and_external_binaries_not_bundled": true,
+  "fresh_machine_end_to_end_render_verified": false,
+  "application_installation_unchanged": true
+}

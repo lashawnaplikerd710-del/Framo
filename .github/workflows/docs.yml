@@ -1,4 +1,4 @@
-name: Documentation checks
+name: Source and documentation checks
 on:
   push:
   pull_request:
@@ -13,3 +13,21 @@ jobs:
           persist-credentials: false
       - name: Validate documentation and public file scope
         run: python3 scripts/validate_docs.py
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Gateway offline tests
+        run: node --test gateway/tests/*.test.mjs
+  core:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Python dependencies
+        run: python -m pip install -r app/requirements.txt
+      - name: Core offline regression
+        run: python -B scripts/run_core_tests.py

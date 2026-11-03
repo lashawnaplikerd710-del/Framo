@@ -1,0 +1,12 @@
+# Python 3.12 on Windows. Models and FFmpeg are installed separately.
+Pillow>=10,<13
+numpy>=1.26,<3
+psutil>=5.9,<8
+fonttools>=4.50,<5
+pyJianYingDraft==0.3.0
+pymediainfo>=7,<8
+imageio>=2.37,<3
+sherpa-onnx>=1.12,<2
+comtypes>=1.4,<2; sys_platform == "win32"
+pycaw>=20251023; sys_platform == "win32"
+uiautomation>=2,<3; sys_platform == "win32"

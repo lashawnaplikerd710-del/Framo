@@ -1,11 +1,12 @@
-# Public documentation repository only
-private-review/
+# Private runtime state and credentials
 .env
 .env.*
+!.env.example
 *.local.json
 config.native.json
 gateway-endpoint.json
 grants*.json
+private/
 UserData/
 data/
 outputs/
@@ -14,6 +15,7 @@ models/
 python/
 node_modules/
 .wrangler/
+.venv/
 __pycache__/
 *.pyc
 *.sqlite*
@@ -26,3 +28,6 @@ __pycache__/
 *.mp4
 *.wav
 *.zip
+# Downloaded optional font binaries (catalogs and licenses remain tracked)
+app/desktop-assets/media-library/font-library/fonts/**/*.ttf
+app/desktop-assets/media-library/font-library/fonts/**/*.otf

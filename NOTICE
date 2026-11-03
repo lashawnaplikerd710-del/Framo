@@ -1,0 +1,4 @@
+Framo first-party source code and documentation are licensed under MIT.
+Third-party libraries, fonts, stickers, sounds and the vendored adu-motion-video
+engine keep their respective copyright and license notices. The root MIT grant
+does not relicense third-party work. See THIRD_PARTY_NOTICES.md.

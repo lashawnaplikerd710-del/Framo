@@ -1,0 +1,100 @@
+{
+  "added": 15,
+  "total": 151,
+  "source": "3dicons v1 / Vijay Verma",
+  "license": "CC0-1.0",
+  "ai_generated": false,
+  "original_files_preserved": true,
+  "assets": [
+    {
+      "id": "3dicons_premium_gift",
+      "sha256": "d5c7e4f35436e1c2de0769d6139532ee366c419f3bb29dce8b70c90a99599102",
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "3dicons_premium_bag",
+      "sha256": "e254fb22b18154caeb0bcf8f29bd81b8d2778edebf1d8577e1dd11b0b02094b6",
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "3dicons_premium_heart",
+      "sha256": "90f26d11d4e43e983af581946795cd8944065cc8de45e0e7ec0fe6cad5470939",
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "3dicons_premium_thumb_up",
+      "sha256": "fdc07708059fd42cc33ef4becaa41c7051125ce3051b222905a15a9853b1140e",
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "3dicons_premium_star",
+      "sha256": "2274e73426dd32c8cb73c56fd510ce88a9d09ee59332f0b7d9eb6482ea263b84",
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "3dicons_premium_crown",
+      "sha256": "491aeb8e70d6ddb374a9933bfa6ab4f55199a24c3124d838e42582da733ea2ea",
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "3dicons_premium_medal",
+      "sha256": "c56d365e1d3c01764aed24b5f8da9da20a8301f7e71f43c0e273a6610cde54ba",
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "3dicons_premium_trophy",
+      "sha256": "f2134bf823d15d214a9e8f0e3db4b2f44162bb721ae9496222f60c212a9b2a90",
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "3dicons_premium_yuan",
+      "sha256": "3dea1751f573033d4e27589d91d779688b535b34c4734b39978ad1b0309d7d8d",
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "3dicons_premium_money_bag",
+      "sha256": "bcfaa1d8e56ba4d2b4f8e6e636305c83935b083852fb83b42896a341e9017b17",
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "3dicons_premium_wallet",
+      "sha256": "2cf8a76373da9b74bed0f29633a436bf45f019e8938bb6069a39ca533bdb8231",
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "3dicons_premium_megaphone",
+      "sha256": "6cdcafa55175943028b11bfa50c8aa6dd06da887bc3bda19eae61cd2608274ec",
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "3dicons_premium_flash",
+      "sha256": "cc1d653be6b26bfbe493a045cb156380451969fcd1cee3b8ade97b61cffbed23",
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "3dicons_premium_rocket",
+      "sha256": "f28d462157351b1b191b62f620bbf79d2e2a1b595ba6fdc8200465f0ae1bd52b",
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "3dicons_premium_tick",
+      "sha256": "73bb52180c8c5b0a8e95714d4fff3f744237321aa3120710ae29b1b24fa77fcb",
+      "width": 400,
+      "height": 400
+    }
+  ]
+}

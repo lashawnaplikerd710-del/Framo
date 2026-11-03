@@ -1,0 +1,40 @@
+{
+  "schema": "jianying-external-agent-v1",
+  "provider": {
+    "base_url": "https://api.deepseek.com",
+    "model": "deepseek-flash",
+    "api_key_env": "DEEPSEEK_API_KEY",
+    "timeout_seconds": 120,
+    "max_output_tokens": 8192,
+    "thinking": "disabled",
+    "capabilities": {
+      "vision": true,
+      "tool_calls": true
+    }
+  },
+  "render_backend_default": "direct_ffmpeg",
+  "direct_output_dir": "outputs",
+  "direct_ffmpeg_dir": "toolchain",
+  "direct_resources_root": "Resources/DirectBuiltin",
+  "toolchain_root": "toolchain",
+  "install_dir": "",
+  "draft_root": "",
+  "asr_model_dir": "models/sensevoice",
+  "native_resources": {
+    "mode": "official_cli_v1",
+    "allow_isolated_host": true
+  },
+  "narration": {
+    "product_ad_default": "new_native"
+  },
+  "limits": {
+    "max_model_calls": 24,
+    "max_tool_calls": 24,
+    "token_stop_threshold": 160000,
+    "max_images_per_call": 8,
+    "max_image_bytes": 1048576
+  },
+  "direct_media": {
+    "local_voice_library": "Resources/voice-library"
+  }
+}

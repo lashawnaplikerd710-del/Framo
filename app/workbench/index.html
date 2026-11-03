@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>剪映 Agent · 创作工作台</title><link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script></head>
+<body>
+<aside class="sidebar">
+  <a class="brand" href="/" aria-label="创作工作台"><span class="brand-mark">J</span><span>剪映 Agent<small>创作工作台</small></span></a>
+  <div class="version">FRIENDS PREVIEW <span>0.1</span></div>
+  <nav aria-label="工作台导航"><button class="nav active" data-view="create"><span>＋</span>新建剪辑</button><button class="nav" data-view="tasks"><span>▤</span>任务与草稿<b id="task-count">0</b></button><button class="nav" data-view="settings"><span>⚙</span>环境与设置</button></nav>
+  <div class="side-bottom"><span class="dot"></span>本机运行<small>素材在本机处理，模型分析经网关调用。</small><small>预览版 · 供朋友内部试用</small></div>
+</aside>
+<main>
+  <header class="topbar"><span id="breadcrumb">工作空间 / 新建剪辑</span><span class="local-chip">WINDOWS · LOCAL</span></header>
+  <div id="notice" role="status" aria-live="polite" hidden></div>
+  <section id="view-create" class="view">
+    <div class="page-heading"><div><span class="eyebrow">LET'S MAKE SOMETHING</span><h1>从素材，到新的故事。</h1><p>提供视频和想法，让 Agent 完成分析、剪辑与草稿整理。</p></div><span class="outline-tag">可编辑剪映草稿</span></div>
+    <div id="setup-banner" class="setup-banner" hidden><div><strong>先完成这台电脑的环境设置</strong><p>保存访问码，检查剪映安装位置，然后开始第一条剪辑。</p></div><button data-view="settings" class="secondary">去设置 →</button></div>
+    <div class="create-grid">
+      <div class="composer">
+        <section class="card"><div class="card-heading"><h2><span class="step">01</span>准备素材</h2><span class="muted" id="asset-count">0 / 8</span></div>
+          <label class="dropzone" id="dropzone" tabindex="0"><input id="files" type="file" accept=".mp4,.mov,.mkv,.m4v" multiple hidden><span class="upload-icon">↥</span><strong>拖入视频，或点击上传</strong><span>MP4 / MOV / MKV / M4V · 每条不超过 3 分钟</span></label>
+          <div class="file-actions"><button id="pick" class="text-button">从本机选择文件</button><small>本机选择无需复制大文件</small></div><div id="assets" class="assets"></div>
+        </section>
+        <section class="card"><div class="card-heading"><h2><span class="step">02</span>告诉 Agent 你的想法</h2><span class="muted">其余交给它</span></div>
+          <div class="form-row"><label for="workflow">剪辑类型</label><select id="workflow"><option value="product_ad">带货混剪 · 全新口播</option><option value="product_montage">商品混剪 · 保留素材声音</option><option value="talking_head">口播精剪 · 单条素材</option><option value="interview">访谈精剪 · 单条素材</option></select></div>
+          <div class="form-row"><label for="output-count">批量成品数量</label><input id="output-count" type="number" min="1" max="15" value="1"><small>最多 15 条；每条独立处理，批次主草稿使用绝对时间和全轨道空白间隙。</small></div>
+          <label class="sr-only" for="instruction">剪辑要求</label><textarea id="instruction" maxlength="10000" rows="5" placeholder="例如：剪成 28 秒宠物用品带货视频，节奏轻快。加入全新口播、字幕文案、音乐音效、贴纸、字体、转场、特效和滤镜，所有附加元素使用剪映免费内部资源。"></textarea>
+          <div class="prompt-bottom"><span>输出：可编辑草稿，保留独立元素轨道</span><span id="text-count">0 / 10000</span></div>
+          <div class="submit-row"><small id="workflow-hint">选择 2–8 条同画幅素材，包含可识别的口播内容。</small><button id="create" class="primary">开始自动剪辑 <span>↗</span></button></div>
+        </section>
+      </div>
+      <aside class="context-panel"><div class="mini-label">YOUR EDITING TEAM</div><h2>一套协作流程</h2><div class="role"><span class="role-icon">文</span><div><strong>文字与剪辑决策</strong><p>DeepSeek Flash</p></div></div><div class="role"><span class="role-icon">视</span><div><strong>素材画面理解</strong><p>Qwen Omni-Flash · 复杂片段由 Max 分析</p></div></div><div class="role"><span class="role-icon">剪</span><div><strong>剪辑与资源编排</strong><p>本机剪映 · 免费内部资源</p></div></div><div class="role"><span class="role-icon">检</span><div><strong>抽样检查与交付</strong><p>Qwen Omni-Flash · 可编辑草稿</p></div></div><div class="context-note"><strong>开始前</strong><p>请先在剪映登录自己的账号并退出。处理期间保持电脑开机、网络连接。</p><p>模型会收到分析所需的文字和抽样画面，访问费用由工作台提供方承担。</p></div><a href="#limitations" id="limitations-link">查看当前支持范围 ↗</a></aside>
+    </div>
+    <div id="limitations" class="limits"></div>
+  </section>
+  <section id="view-tasks" class="view" hidden><div class="page-heading"><div><span class="eyebrow">YOUR PROJECTS</span><h1>每一步，都有迹可循。</h1><p>任务在本机依次执行。关闭浏览器后，已启动的任务仍会继续。</p></div><button class="secondary" data-view="create">＋ 新建剪辑</button></div><div id="tasks"></div></section>
+  <section id="view-settings" class="view" hidden><div class="page-heading"><div><span class="eyebrow">READY TO CREATE</span><h1>连接你的创作环境。</h1><p>使用自己的剪映账号。模型访问码由工作台提供方发放。</p></div><span class="outline-tag">仅绑定本机</span></div>
+    <div class="settings-grid"><section class="card"><h2>连接设置</h2><form id="settings-form">
+      <label for="gateway_url">模型网关地址</label><input id="gateway_url" type="url" placeholder="https://…workers.dev/v1" required>
+      <label for="access_token">工作台访问码</label><input id="access_token" type="password" placeholder="jyg_…（已保存时无需重复填写）" autocomplete="off"><small>保存在 Windows 凭据管理器。不要填写模型 API Key。</small>
+      <label for="install_dir">剪映安装目录</label><input id="install_dir" type="text" placeholder="例如 D:\JianyingPro\11.5.0.14471" required>
+      <label for="draft_root">剪映草稿目录</label><input id="draft_root" type="text" required>
+      <label for="user_data_dir">剪映用户目录</label><input id="user_data_dir" type="text" required>
+      <div class="settings-actions"><button class="primary" type="submit">保存设置</button><button class="secondary" type="button" id="check-gateway">检测网关</button></div><p id="gateway-result" class="muted"></p>
+    </form></section><section class="card check-card"><h2>环境自检</h2><p class="muted">检查运行条件，不代表视频质量验收通过。</p><div id="checks"></div><div class="context-note"><strong>本机工作目录</strong><p id="state-dir" class="mono"></p><p>草稿需在剪映中试听、检查，再手动导出 MP4。</p></div></section></div>
+  </section>
+  <footer>剪映 Agent · 本地工作台 <span>草稿可编辑，创意有余地。</span><button class="text-button" id="shutdown">退出工作台</button></footer>
+</main>
+</body></html>

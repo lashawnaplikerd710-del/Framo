@@ -1,0 +1,4465 @@
+{
+  "schema_version": 1,
+  "version": "6.1.0",
+  "design_count": 151,
+  "asset_count": 151,
+  "provenance_policy": "downloaded_existing_designs_only_no_ai_generated_assets",
+  "stickers": [
+    {
+      "id": "fluent_sparkles",
+      "design": "fluent_sparkles",
+      "label": "闪光",
+      "themes": [
+        "general",
+        "beauty",
+        "celebration"
+      ],
+      "neutral": true,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_sparkles.png",
+      "sha256": "e4490c9ff74a3fd73a8f99c760d65b6ed51b8a3e4ad28da137fec050b77e1058",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Sparkles/3D/sparkles_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "闪光"
+      ]
+    },
+    {
+      "id": "fluent_glowing_star",
+      "design": "fluent_glowing_star",
+      "label": "立体星芒",
+      "themes": [
+        "general",
+        "celebration"
+      ],
+      "neutral": true,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_glowing_star.png",
+      "sha256": "a8041e122bfebbc72ff85c294568561ae77dc97ae322f747292c082901a3bef7",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Glowing%20star/3D/glowing_star_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "星芒"
+      ]
+    },
+    {
+      "id": "fluent_gem_stone",
+      "design": "fluent_gem_stone",
+      "label": "晶钻",
+      "themes": [
+        "fashion",
+        "beauty",
+        "technology"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_gem_stone.png",
+      "sha256": "50dd4109b524203fc9e208e24498f6f468c54f104b4eb41e914dec203e841820",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Gem%20stone/3D/gem_stone_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "晶钻"
+      ]
+    },
+    {
+      "id": "fluent_ribbon",
+      "design": "fluent_ribbon",
+      "label": "丝带蝴蝶结",
+      "themes": [
+        "fashion",
+        "beauty",
+        "celebration"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_ribbon.png",
+      "sha256": "c2612db2b5070992a67c56667e8b80e8344112c28ef668cbd554962b5bb63b42",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Ribbon/3D/ribbon_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "丝带蝴蝶结"
+      ]
+    },
+    {
+      "id": "fluent_ring",
+      "design": "fluent_ring",
+      "label": "珠宝戒指",
+      "themes": [
+        "fashion",
+        "beauty"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_ring.png",
+      "sha256": "eebc92da46a996d0ed851c8de8d794e17fdea92f0fd8df22b370dfecd2f9a7ae",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Ring/3D/ring_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "珠宝戒指"
+      ]
+    },
+    {
+      "id": "fluent_high_heeled_shoe",
+      "design": "fluent_high_heeled_shoe",
+      "label": "高跟鞋",
+      "themes": [
+        "fashion"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_high_heeled_shoe.png",
+      "sha256": "3e7507c3a9fde272afb1bd759861e3f0317003b4a2282716c602bd33289bc1d3",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/High-heeled%20shoe/3D/high-heeled_shoe_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "高跟鞋"
+      ]
+    },
+    {
+      "id": "fluent_running_shoe",
+      "design": "fluent_running_shoe",
+      "label": "运动鞋",
+      "themes": [
+        "fashion",
+        "fitness"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_running_shoe.png",
+      "sha256": "33cdf4673e2a909e096dd6301ba50903e0d3507429bb4bc8e219211a825ca2c6",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Running%20shoe/3D/running_shoe_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "运动鞋"
+      ]
+    },
+    {
+      "id": "fluent_sunglasses",
+      "design": "fluent_sunglasses",
+      "label": "时尚墨镜",
+      "themes": [
+        "fashion",
+        "travel"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_sunglasses.png",
+      "sha256": "f21e1e463c5462244d627fb98d1345edc9e63b542878ee550f20957ab7806a14",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Sunglasses/3D/sunglasses_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "时尚墨镜"
+      ]
+    },
+    {
+      "id": "fluent_t_shirt",
+      "design": "fluent_t_shirt",
+      "label": "T恤",
+      "themes": [
+        "fashion"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_t_shirt.png",
+      "sha256": "e343973ae02fc0cb537413d0ddaf7bd45f41acf22854898321367567909375d7",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/T-shirt/3D/t-shirt_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "T恤",
+        "衣服",
+        "服装",
+        "衬衫",
+        "T恤",
+        "shirt",
+        "clothing"
+      ]
+    },
+    {
+      "id": "fluent_shopping_bags",
+      "design": "fluent_shopping_bags",
+      "label": "购物袋",
+      "themes": [
+        "fashion"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_shopping_bags.png",
+      "sha256": "b4c45c21e13eb6f3f2bbfba7a48f57db27a43bf0bb4734fdb7cb0b560f5d51bd",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Shopping%20bags/3D/shopping_bags_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "购物袋",
+        "购物",
+        "shopping"
+      ]
+    },
+    {
+      "id": "fluent_handbag",
+      "design": "fluent_handbag",
+      "label": "手提包",
+      "themes": [
+        "fashion"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_handbag.png",
+      "sha256": "ec13a2f40d2e8c632904c9bb670f737b743c4ceeb6fe72bac8e555b9b59ce949",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Handbag/3D/handbag_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "手提包",
+        "包包",
+        "handbag"
+      ]
+    },
+    {
+      "id": "fluent_lipstick",
+      "design": "fluent_lipstick",
+      "label": "口红",
+      "themes": [
+        "beauty",
+        "fashion"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_lipstick.png",
+      "sha256": "29cb2c82a59177defefc4feb1731a0b76f45aaa0ae283952f84f2199597999b3",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Lipstick/3D/lipstick_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "口红",
+        "口红",
+        "唇膏",
+        "lipstick"
+      ]
+    },
+    {
+      "id": "fluent_nail_polish",
+      "design": "fluent_nail_polish",
+      "label": "美甲",
+      "themes": [
+        "beauty"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_nail_polish.png",
+      "sha256": "e98771e1feafecb6bc21d39d83ada5358109c3b70d4d8a341fd724bf829dcc01",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Nail%20polish/Default/3D/nail_polish_3d_default.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "美甲"
+      ]
+    },
+    {
+      "id": "fluent_paw_prints",
+      "design": "fluent_paw_prints",
+      "label": "爪印",
+      "themes": [
+        "pet"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_paw_prints.png",
+      "sha256": "4332fe23d9d3c6f0c5a91b26bc835b972301d9b50031a7365c176d3c5afbbf51",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Paw%20prints/3D/paw_prints_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "爪印"
+      ]
+    },
+    {
+      "id": "fluent_cat_face",
+      "design": "fluent_cat_face",
+      "label": "立体猫咪",
+      "themes": [
+        "pet"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_cat_face.png",
+      "sha256": "d930f2aee8ae47cb3ca26f2594ddd15df42345d952b5903b776adf4a728860b5",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Cat%20face/3D/cat_face_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "猫咪",
+        "猫",
+        "cat"
+      ]
+    },
+    {
+      "id": "fluent_dog_face",
+      "design": "fluent_dog_face",
+      "label": "立体小狗",
+      "themes": [
+        "pet"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_dog_face.png",
+      "sha256": "7db4c311218a47053e490ec53e7b3995bb83246b0d6992e135868a5220bb32e7",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Dog%20face/3D/dog_face_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "小狗",
+        "狗",
+        "dog"
+      ]
+    },
+    {
+      "id": "fluent_butterfly",
+      "design": "fluent_butterfly",
+      "label": "蝴蝶",
+      "themes": [
+        "nature",
+        "beauty"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_butterfly.png",
+      "sha256": "2ee52f94c6383dafdd29f471d04c17141563d7fff790d33e16781a751f72b397",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Butterfly/3D/butterfly_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "蝴蝶"
+      ]
+    },
+    {
+      "id": "fluent_cherry_blossom",
+      "design": "fluent_cherry_blossom",
+      "label": "樱花",
+      "themes": [
+        "nature",
+        "beauty"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_cherry_blossom.png",
+      "sha256": "e911aad0884966bbeb2a3feda131d5b5aa2fb3d70284e97b9cc1e94a75f953c0",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Cherry%20blossom/3D/cherry_blossom_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "樱花"
+      ]
+    },
+    {
+      "id": "fluent_seedling",
+      "design": "fluent_seedling",
+      "label": "嫩芽",
+      "themes": [
+        "nature"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_seedling.png",
+      "sha256": "b16c51b1b36c68b87bc05b92841d3cbd25d93919911057bb0eb3648717615cc1",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Seedling/3D/seedling_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "嫩芽"
+      ]
+    },
+    {
+      "id": "fluent_palm_tree",
+      "design": "fluent_palm_tree",
+      "label": "棕榈树",
+      "themes": [
+        "nature",
+        "travel"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_palm_tree.png",
+      "sha256": "c29dcf2e535992b76f5e400d18c0b5dfd6ad9c69f9351a394ac9d8dcc622591a",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Palm%20tree/3D/palm_tree_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "棕榈树"
+      ]
+    },
+    {
+      "id": "fluent_sun",
+      "design": "fluent_sun",
+      "label": "太阳",
+      "themes": [
+        "nature",
+        "travel"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_sun.png",
+      "sha256": "c9bb15d03d4b1e6151d97e12119ac93bbd2bcb5e713a49c1fcfc11ece54caec1",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Sun/3D/sun_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "太阳"
+      ]
+    },
+    {
+      "id": "fluent_crescent_moon",
+      "design": "fluent_crescent_moon",
+      "label": "月牙",
+      "themes": [
+        "nature"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_crescent_moon.png",
+      "sha256": "0a5b5192390983789d430e37582dfda343be19bf8246feda73108484771ba09d",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Crescent%20moon/3D/crescent_moon_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "月牙"
+      ]
+    },
+    {
+      "id": "fluent_fire",
+      "design": "fluent_fire",
+      "label": "立体火焰",
+      "themes": [
+        "fitness",
+        "music",
+        "celebration"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_fire.png",
+      "sha256": "d56355132d73df1741edcf37cb4e21ad54f1c46eeb76fa17224607abf4128c3f",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Fire/3D/fire_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "火焰"
+      ]
+    },
+    {
+      "id": "fluent_high_voltage",
+      "design": "fluent_high_voltage",
+      "label": "闪电",
+      "themes": [
+        "technology",
+        "fitness",
+        "music"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_high_voltage.png",
+      "sha256": "f8f9d3ed8a6f350f1e3f009fb8b3f3bcc20276c008b2ce391bef057ea062ca71",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/High%20voltage/3D/high_voltage_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "闪电"
+      ]
+    },
+    {
+      "id": "fluent_rocket",
+      "design": "fluent_rocket",
+      "label": "火箭",
+      "themes": [
+        "technology",
+        "education"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_rocket.png",
+      "sha256": "4636925a1dfc76a45dc83c08b983699d39143a0978f794a4e2dfb6cbffdcd7ab",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Rocket/3D/rocket_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "火箭"
+      ]
+    },
+    {
+      "id": "fluent_robot",
+      "design": "fluent_robot",
+      "label": "机器人",
+      "themes": [
+        "technology"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_robot.png",
+      "sha256": "3f9b5a00b53c8bddda36b6a3f68d00718d9d7d8c04f986a3248e55ae93a7961b",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Robot/3D/robot_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "机器人"
+      ]
+    },
+    {
+      "id": "fluent_satellite",
+      "design": "fluent_satellite",
+      "label": "卫星",
+      "themes": [
+        "technology",
+        "travel"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_satellite.png",
+      "sha256": "65e048cebea29abbac22e1b378184364ef59c3a345bd02c62e31bc0300d34769",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Satellite/3D/satellite_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "卫星"
+      ]
+    },
+    {
+      "id": "fluent_laptop",
+      "design": "fluent_laptop",
+      "label": "笔记本电脑",
+      "themes": [
+        "technology",
+        "education"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_laptop.png",
+      "sha256": "3b8a267f6c3d2721af925782bdbc11c4e1bc9ae806c5c875557b100393665aab",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Laptop/3D/laptop_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "笔记本电脑",
+        "电脑",
+        "笔记本",
+        "laptop"
+      ]
+    },
+    {
+      "id": "fluent_mobile_phone",
+      "design": "fluent_mobile_phone",
+      "label": "手机",
+      "themes": [
+        "technology"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_mobile_phone.png",
+      "sha256": "c72cf9f888cb74cb8852679184e0dac945ed0340839c98a86c653f51e1e3504d",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Mobile%20phone/3D/mobile_phone_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "手机",
+        "手机",
+        "smartphone"
+      ]
+    },
+    {
+      "id": "fluent_headphone",
+      "design": "fluent_headphone",
+      "label": "耳机",
+      "themes": [
+        "technology",
+        "music"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_headphone.png",
+      "sha256": "e7c26d433340b1706f20c733558da412cbf70b1a95048d51a80eb0ed2c0a02c9",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Headphone/3D/headphone_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "耳机"
+      ]
+    },
+    {
+      "id": "fluent_musical_notes",
+      "design": "fluent_musical_notes",
+      "label": "音符",
+      "themes": [
+        "music"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_musical_notes.png",
+      "sha256": "72bd5c2870b7bcad31bb591a789107c92825b7dd844006366e6fc4e1fa31ab36",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Musical%20notes/3D/musical_notes_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "音符"
+      ]
+    },
+    {
+      "id": "fluent_microphone",
+      "design": "fluent_microphone",
+      "label": "麦克风",
+      "themes": [
+        "music"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_microphone.png",
+      "sha256": "99ccf1ae9f0df5a0449441da687cd5337581c029f452db8ed135f14c6a6e0121",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Microphone/3D/microphone_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "麦克风"
+      ]
+    },
+    {
+      "id": "fluent_camera_with_flash",
+      "design": "fluent_camera_with_flash",
+      "label": "相机",
+      "themes": [
+        "travel",
+        "technology"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_camera_with_flash.png",
+      "sha256": "fabe124e007add8f59f1312760b0f634deafe039e81a640f91e9dba3582d7a80",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Camera%20with%20flash/3D/camera_with_flash_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "相机"
+      ]
+    },
+    {
+      "id": "fluent_airplane",
+      "design": "fluent_airplane",
+      "label": "飞机",
+      "themes": [
+        "travel"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_airplane.png",
+      "sha256": "dda8d8e9ccaca71973f4ee75fcab085dcffbb89f3987a9d2cc5401f186268fa1",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Airplane/3D/airplane_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "飞机"
+      ]
+    },
+    {
+      "id": "fluent_compass",
+      "design": "fluent_compass",
+      "label": "指南针",
+      "themes": [
+        "travel"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_compass.png",
+      "sha256": "146e39368bbeb95049ca200ba6fca3ded48f0883bc042230d9fa1939b6aec2e7",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Compass/3D/compass_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "指南针"
+      ]
+    },
+    {
+      "id": "fluent_basketball",
+      "design": "fluent_basketball",
+      "label": "篮球",
+      "themes": [
+        "fitness"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_basketball.png",
+      "sha256": "cdca1c9b81130ab7b1f8da385984bfaba3f577176bb84b927ad70cfe367cecff",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Basketball/3D/basketball_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "篮球",
+        "篮球",
+        "basketball"
+      ]
+    },
+    {
+      "id": "fluent_soccer_ball",
+      "design": "fluent_soccer_ball",
+      "label": "足球",
+      "themes": [
+        "fitness"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_soccer_ball.png",
+      "sha256": "bf8597110e987c13b8a3ac0c317d6903cef29499faa04de695b5fc37dbb5a053",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Soccer%20ball/3D/soccer_ball_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "足球"
+      ]
+    },
+    {
+      "id": "fluent_trophy",
+      "design": "fluent_trophy",
+      "label": "奖杯",
+      "themes": [
+        "fitness",
+        "celebration"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_trophy.png",
+      "sha256": "7c4a9805f354eb2aec35063a95a4043306efc726324c0d128883f24497857bbc",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Trophy/3D/trophy_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "奖杯"
+      ]
+    },
+    {
+      "id": "fluent_wrapped_gift",
+      "design": "fluent_wrapped_gift",
+      "label": "礼盒",
+      "themes": [
+        "celebration",
+        "fashion"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_wrapped_gift.png",
+      "sha256": "fc9c446401c9fb347f4e9f47e6023247208126047d9ec32059d5e14e127fb562",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Wrapped%20gift/3D/wrapped_gift_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "礼盒"
+      ]
+    },
+    {
+      "id": "fluent_party_popper",
+      "design": "fluent_party_popper",
+      "label": "礼花",
+      "themes": [
+        "celebration"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_party_popper.png",
+      "sha256": "70a8e2f9daf1646be9e773751b7f3b6b281a2415cf29c3c3aeebd9c923cdc3e0",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Party%20popper/3D/party_popper_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "礼花"
+      ]
+    },
+    {
+      "id": "fluent_balloon",
+      "design": "fluent_balloon",
+      "label": "气球",
+      "themes": [
+        "celebration"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_balloon.png",
+      "sha256": "1f3ae11652b440750cfd3e724888b3827d8e9349367cea80e57e33fd45588215",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Balloon/3D/balloon_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "气球"
+      ]
+    },
+    {
+      "id": "fluent_hot_beverage",
+      "design": "fluent_hot_beverage",
+      "label": "咖啡",
+      "themes": [
+        "food"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_hot_beverage.png",
+      "sha256": "edeaa3fca5eace5f2546efcd3b3e42ef1fd389a0c51d374dbf7863731db8f314",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Hot%20beverage/3D/hot_beverage_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "咖啡"
+      ]
+    },
+    {
+      "id": "fluent_cupcake",
+      "design": "fluent_cupcake",
+      "label": "纸杯蛋糕",
+      "themes": [
+        "food",
+        "celebration"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_cupcake.png",
+      "sha256": "1d39177c541e5a3253922f88fc8c33aae4e8ad26d13a4f2272f830d168c02289",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Cupcake/3D/cupcake_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "纸杯蛋糕"
+      ]
+    },
+    {
+      "id": "fluent_strawberry",
+      "design": "fluent_strawberry",
+      "label": "草莓",
+      "themes": [
+        "food",
+        "beauty"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_strawberry.png",
+      "sha256": "446d640c24e146d03e8382c61ae52862848b11aadf74e7b47d200bc44d2f0223",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Strawberry/3D/strawberry_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "草莓"
+      ]
+    },
+    {
+      "id": "fluent_open_book",
+      "design": "fluent_open_book",
+      "label": "书本",
+      "themes": [
+        "education"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_open_book.png",
+      "sha256": "c6b7de9724d8ca47f900238d8cb34c2ac7346a12c8cea91c176b30f8a39d628d",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Open%20book/3D/open_book_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "书本"
+      ]
+    },
+    {
+      "id": "fluent_light_bulb",
+      "design": "fluent_light_bulb",
+      "label": "灯泡",
+      "themes": [
+        "education",
+        "technology"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_light_bulb.png",
+      "sha256": "df7b09aa18301507e6fb8c279df66d9afa465b6fed3e63d2efa84dacebdbbf79",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Light%20bulb/3D/light_bulb_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "灯泡"
+      ]
+    },
+    {
+      "id": "fluent_magnifying_glass_tilted_left",
+      "design": "fluent_magnifying_glass_tilted_left",
+      "label": "放大镜",
+      "themes": [
+        "education",
+        "technology"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "file": "assets/fluent_magnifying_glass_tilted_left.png",
+      "sha256": "e8fea91e4652a36486aa9392a67873c987a13389afdae06bbcdae78ab30b4f4f",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Magnifying%20glass%20tilted%20left/3D/magnifying_glass_tilted_left_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none",
+      "keywords": [
+        "放大镜"
+      ]
+    },
+    {
+      "id": "fluent_dress",
+      "design": "fluent_dress",
+      "label": "连衣裙",
+      "themes": [
+        "fashion"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "连衣裙",
+        "dress"
+      ],
+      "file": "assets/fluent_dress.png",
+      "sha256": "f1faa6bfe0c2b741110065d53f57d2d142d3ba758e827fc8fe410f230865b72f",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Dress/3D/dress_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_jeans",
+      "design": "fluent_jeans",
+      "label": "牛仔裤",
+      "themes": [
+        "fashion"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "牛仔裤",
+        "jeans"
+      ],
+      "file": "assets/fluent_jeans.png",
+      "sha256": "fee54f83199aaefcd30b7cd61c835c4d0bce21b00a99ec82eb0c30801129aeba",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Jeans/3D/jeans_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_coat",
+      "design": "fluent_coat",
+      "label": "外套",
+      "themes": [
+        "fashion"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "外套",
+        "coat"
+      ],
+      "file": "assets/fluent_coat.png",
+      "sha256": "36b2c4951a94dbe7a39b88bcceabcd925eec2b40ca65675f9897acc29980705b",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Coat/3D/coat_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_scarf",
+      "design": "fluent_scarf",
+      "label": "围巾",
+      "themes": [
+        "fashion"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "围巾",
+        "scarf"
+      ],
+      "file": "assets/fluent_scarf.png",
+      "sha256": "f04c375910a91e6c6108837b75b5b105225638324c2c922eaf43f1ba7701a626",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Scarf/3D/scarf_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_gloves",
+      "design": "fluent_gloves",
+      "label": "手套",
+      "themes": [
+        "fashion",
+        "fitness"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "手套",
+        "gloves"
+      ],
+      "file": "assets/fluent_gloves.png",
+      "sha256": "fe00785b8204bad28c84700d07cfec0f3946d9f9f12329519d8ca8308b06a368",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Gloves/3D/gloves_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_socks",
+      "design": "fluent_socks",
+      "label": "袜子",
+      "themes": [
+        "fashion",
+        "fitness"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "袜子",
+        "socks"
+      ],
+      "file": "assets/fluent_socks.png",
+      "sha256": "6087c12587efdc65ddb4906227f715facf881f1f3ba4167c812ed25ffcf2ab71",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Socks/3D/socks_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_billed_cap",
+      "design": "fluent_billed_cap",
+      "label": "棒球帽",
+      "themes": [
+        "fashion",
+        "fitness"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "棒球帽",
+        "billed cap"
+      ],
+      "file": "assets/fluent_billed_cap.png",
+      "sha256": "c0bca67c099cd4199af0eeeebfae76721d96f84353b0020e9cd76438d6f69909",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Billed%20cap/3D/billed_cap_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_crown",
+      "design": "fluent_crown",
+      "label": "皇冠",
+      "themes": [
+        "fashion",
+        "celebration"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "皇冠",
+        "crown"
+      ],
+      "file": "assets/fluent_crown.png",
+      "sha256": "817095bb1423468afa155317ba04ca333957d51757a8d3326856ee8707c0edd6",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Crown/3D/crown_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_clutch_bag",
+      "design": "fluent_clutch_bag",
+      "label": "手拿包",
+      "themes": [
+        "fashion"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "手拿包",
+        "clutch bag"
+      ],
+      "file": "assets/fluent_clutch_bag.png",
+      "sha256": "d482a2ad78774a229293c723963673730dcf9b522f1a2acf99d0977fc7c7e9be",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Clutch%20bag/3D/clutch_bag_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_watch",
+      "design": "fluent_watch",
+      "label": "手表",
+      "themes": [
+        "fashion",
+        "technology"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "手表",
+        "watch"
+      ],
+      "file": "assets/fluent_watch.png",
+      "sha256": "0df0cdf7cd6675d1cc3f716a26a846fb646b300caeaa20b55337785b8c9c21b2",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Watch/3D/watch_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_lotion_bottle",
+      "design": "fluent_lotion_bottle",
+      "label": "护肤乳液",
+      "themes": [
+        "beauty"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "护肤乳液",
+        "lotion bottle"
+      ],
+      "file": "assets/fluent_lotion_bottle.png",
+      "sha256": "a065d7c9d54740af0e36614c88f193f82411fcfe595f41076238f89ccd5d1b1c",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Lotion%20bottle/3D/lotion_bottle_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_mirror",
+      "design": "fluent_mirror",
+      "label": "镜子",
+      "themes": [
+        "beauty",
+        "fashion"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "镜子",
+        "mirror"
+      ],
+      "file": "assets/fluent_mirror.png",
+      "sha256": "7d3522d8a521298bc218f106e92ca58c1241810e4d72dcd24e03cccefbf9ffd8",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Mirror/3D/mirror_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_rose",
+      "design": "fluent_rose",
+      "label": "玫瑰",
+      "themes": [
+        "beauty",
+        "nature",
+        "celebration"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "玫瑰",
+        "rose"
+      ],
+      "file": "assets/fluent_rose.png",
+      "sha256": "24a9794f108eb27d8d51ac8fc1898f8cee20e19f1b4e8c063efec5215d28d947",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Rose/3D/rose_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_desktop_computer",
+      "design": "fluent_desktop_computer",
+      "label": "台式电脑",
+      "themes": [
+        "technology",
+        "education"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "台式电脑",
+        "desktop computer"
+      ],
+      "file": "assets/fluent_desktop_computer.png",
+      "sha256": "f0ec12ccf1e9a2ff83f95cd8ba85e357e401d8dcdbc6bae596d23d77be7f74da",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Desktop%20computer/3D/desktop_computer_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_keyboard",
+      "design": "fluent_keyboard",
+      "label": "键盘",
+      "themes": [
+        "technology"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "键盘",
+        "keyboard"
+      ],
+      "file": "assets/fluent_keyboard.png",
+      "sha256": "448ea066381ca784676b617c9c76a3ea175e93a025d3b1103a685996496521c0",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Keyboard/3D/keyboard_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_computer_mouse",
+      "design": "fluent_computer_mouse",
+      "label": "鼠标",
+      "themes": [
+        "technology"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "鼠标",
+        "computer mouse"
+      ],
+      "file": "assets/fluent_computer_mouse.png",
+      "sha256": "f3d221fe962db9828e7d70e9df964e65a0ed550bd86c944d645cfd8ef1bb6dc3",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Computer%20mouse/3D/computer_mouse_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_joystick",
+      "design": "fluent_joystick",
+      "label": "游戏摇杆",
+      "themes": [
+        "technology"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "游戏摇杆",
+        "joystick"
+      ],
+      "file": "assets/fluent_joystick.png",
+      "sha256": "bd09340c1f65269351e469798f30124902785b128073d86e2c20e7945f56b3c2",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Joystick/3D/joystick_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_video_game",
+      "design": "fluent_video_game",
+      "label": "游戏手柄",
+      "themes": [
+        "technology"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "游戏手柄",
+        "video game"
+      ],
+      "file": "assets/fluent_video_game.png",
+      "sha256": "4b01e22089defe553717d49624e673cb5492ecdd9c6a8eddb7e6ba12d400c0da",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Video%20game/3D/video_game_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_electric_plug",
+      "design": "fluent_electric_plug",
+      "label": "电源插头",
+      "themes": [
+        "technology"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "电源插头",
+        "electric plug"
+      ],
+      "file": "assets/fluent_electric_plug.png",
+      "sha256": "e0ba4840a13c08caea817f9fde77a63fdb8f18813984175466577e975a409788",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Electric%20plug/3D/electric_plug_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_battery",
+      "design": "fluent_battery",
+      "label": "电池",
+      "themes": [
+        "technology"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "电池",
+        "battery"
+      ],
+      "file": "assets/fluent_battery.png",
+      "sha256": "99af4c4b9f7ba0619c4692dafa8f64c0db46e5defc47932ff0fca25f4c707cbd",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Battery/3D/battery_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_gear",
+      "design": "fluent_gear",
+      "label": "齿轮",
+      "themes": [
+        "technology"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "齿轮",
+        "gear"
+      ],
+      "file": "assets/fluent_gear.png",
+      "sha256": "415296d4fadabc2e0f6593143ea632948fef20a1cd73fbbc3dbda571f0421988",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Gear/3D/gear_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_pizza",
+      "design": "fluent_pizza",
+      "label": "披萨",
+      "themes": [
+        "food"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "披萨",
+        "pizza"
+      ],
+      "file": "assets/fluent_pizza.png",
+      "sha256": "beb2d1ac000003d96711ea8364815641442523285fa59007dd5b589059c74b9a",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Pizza/3D/pizza_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_hamburger",
+      "design": "fluent_hamburger",
+      "label": "汉堡",
+      "themes": [
+        "food"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "汉堡",
+        "hamburger"
+      ],
+      "file": "assets/fluent_hamburger.png",
+      "sha256": "5a078744b30da58e854ab7700c501180e0b11337c9d64e33b70585c8b98088a5",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Hamburger/3D/hamburger_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_french_fries",
+      "design": "fluent_french_fries",
+      "label": "薯条",
+      "themes": [
+        "food"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "薯条",
+        "french fries"
+      ],
+      "file": "assets/fluent_french_fries.png",
+      "sha256": "b151bcc12de63b16a4cdb57a2cd71b7d3421d64550fb361bb849a3562ddedc52",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/French%20fries/3D/french_fries_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_croissant",
+      "design": "fluent_croissant",
+      "label": "可颂",
+      "themes": [
+        "food"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "可颂",
+        "croissant"
+      ],
+      "file": "assets/fluent_croissant.png",
+      "sha256": "e597c363b47377aaf24d96bce84ea47c1450b7c31ba6d4152bf344d747f16ba4",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Croissant/3D/croissant_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_bread",
+      "design": "fluent_bread",
+      "label": "面包",
+      "themes": [
+        "food"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "面包",
+        "bread"
+      ],
+      "file": "assets/fluent_bread.png",
+      "sha256": "648d935809d028ce4b583a77a2206d11c54ff981d392703c7fb68dd5c90f0315",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Bread/3D/bread_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_doughnut",
+      "design": "fluent_doughnut",
+      "label": "甜甜圈",
+      "themes": [
+        "food"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "甜甜圈",
+        "doughnut"
+      ],
+      "file": "assets/fluent_doughnut.png",
+      "sha256": "5527fa6a366ad366a45f84b71432e8a54aa502debea3b53d3926c2823fcdf986",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Doughnut/3D/doughnut_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_birthday_cake",
+      "design": "fluent_birthday_cake",
+      "label": "生日蛋糕",
+      "themes": [
+        "food",
+        "celebration"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "生日蛋糕",
+        "birthday cake"
+      ],
+      "file": "assets/fluent_birthday_cake.png",
+      "sha256": "5c5d6961fde0fa82d1aa2242f938ff10b0327e791674c625c912f13ff206933b",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Birthday%20cake/3D/birthday_cake_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_ice_cream",
+      "design": "fluent_ice_cream",
+      "label": "冰淇淋",
+      "themes": [
+        "food"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "冰淇淋",
+        "ice cream"
+      ],
+      "file": "assets/fluent_ice_cream.png",
+      "sha256": "cbe49b092b8e38d86e353595c8c1ccfc8d7b9803307e893b43cfb970c113275f",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Ice%20cream/3D/ice_cream_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_bubble_tea",
+      "design": "fluent_bubble_tea",
+      "label": "奶茶",
+      "themes": [
+        "food"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "奶茶",
+        "bubble tea"
+      ],
+      "file": "assets/fluent_bubble_tea.png",
+      "sha256": "a641ba6510d10b00d861406412a3e72eecec2ad78b00dfbe570e441a54a22377",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Bubble%20tea/3D/bubble_tea_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_avocado",
+      "design": "fluent_avocado",
+      "label": "牛油果",
+      "themes": [
+        "food",
+        "nature"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "牛油果",
+        "avocado"
+      ],
+      "file": "assets/fluent_avocado.png",
+      "sha256": "526f16895dee591111aa502e6a07e3a8cd6262b4189be7f670c82a76e702f4d2",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Avocado/3D/avocado_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_bicycle",
+      "design": "fluent_bicycle",
+      "label": "自行车",
+      "themes": [
+        "fitness",
+        "travel"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "自行车",
+        "bicycle"
+      ],
+      "file": "assets/fluent_bicycle.png",
+      "sha256": "69f1b75015c8cbdff5fee66ec656e66697657bd56e63f05e0f2e7420cb38d1f7",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Bicycle/3D/bicycle_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_skateboard",
+      "design": "fluent_skateboard",
+      "label": "滑板",
+      "themes": [
+        "fitness"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "滑板",
+        "skateboard"
+      ],
+      "file": "assets/fluent_skateboard.png",
+      "sha256": "8c439ecc92b82a8fee366ecd907092d44aec34a9d676721bdd889260398f8076",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Skateboard/3D/skateboard_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_tennis",
+      "design": "fluent_tennis",
+      "label": "网球",
+      "themes": [
+        "fitness"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "网球",
+        "tennis"
+      ],
+      "file": "assets/fluent_tennis.png",
+      "sha256": "48991f754eda621e8f84c9769189bb43cf707729bc3474b94f0adf75203fb67f",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Tennis/3D/tennis_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_badminton",
+      "design": "fluent_badminton",
+      "label": "羽毛球",
+      "themes": [
+        "fitness"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "羽毛球",
+        "badminton"
+      ],
+      "file": "assets/fluent_badminton.png",
+      "sha256": "ca2ecc2871111703b41ec34e2b450b687b6443faf83462cea6a6cfa0c7617fbb",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Badminton/3D/badminton_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_volleyball",
+      "design": "fluent_volleyball",
+      "label": "排球",
+      "themes": [
+        "fitness"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "排球",
+        "volleyball"
+      ],
+      "file": "assets/fluent_volleyball.png",
+      "sha256": "684b85d6e0db2180ea0f337328ec39597a3141d7c6d504f44aa72b5eaa8d46a7",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Volleyball/3D/volleyball_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_four_leaf_clover",
+      "design": "fluent_four_leaf_clover",
+      "label": "四叶草",
+      "themes": [
+        "nature"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "四叶草",
+        "four leaf clover"
+      ],
+      "file": "assets/fluent_four_leaf_clover.png",
+      "sha256": "37b310abbb0914050cb033ffcb99fe25b09c4e47d1d0ef93988f60f6fd849d07",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Four%20leaf%20clover/3D/four_leaf_clover_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_sunflower",
+      "design": "fluent_sunflower",
+      "label": "向日葵",
+      "themes": [
+        "nature",
+        "beauty"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "向日葵",
+        "sunflower"
+      ],
+      "file": "assets/fluent_sunflower.png",
+      "sha256": "14eb41f2cb9afa1387e9b925a9458d8fc768be3bd32210e3064fb7f320e123ca",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Sunflower/3D/sunflower_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_maple_leaf",
+      "design": "fluent_maple_leaf",
+      "label": "枫叶",
+      "themes": [
+        "nature",
+        "travel"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "枫叶",
+        "maple leaf"
+      ],
+      "file": "assets/fluent_maple_leaf.png",
+      "sha256": "28004dbde0c0a6622ed4e53df0b7c0c77c3c29ad4f5b66d91819c390bcfb4f8d",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Maple%20leaf/3D/maple_leaf_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_rainbow",
+      "design": "fluent_rainbow",
+      "label": "彩虹",
+      "themes": [
+        "nature",
+        "celebration"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "彩虹",
+        "rainbow"
+      ],
+      "file": "assets/fluent_rainbow.png",
+      "sha256": "81c60a96369047dd287b9fb54d02d29fe1e9b7fe3f00924330037e861b1fbd81",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Rainbow/3D/rainbow_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_snowflake",
+      "design": "fluent_snowflake",
+      "label": "雪花",
+      "themes": [
+        "nature",
+        "fashion"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "雪花",
+        "snowflake"
+      ],
+      "file": "assets/fluent_snowflake.png",
+      "sha256": "82f12779eb8658ebd4bae02c8136c4588bea55cdf60536d4d88f5eb530e7cb90",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Snowflake/3D/snowflake_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_globe_showing_asia_australia",
+      "design": "fluent_globe_showing_asia_australia",
+      "label": "地球",
+      "themes": [
+        "travel",
+        "education"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "地球",
+        "globe showing asia-australia"
+      ],
+      "file": "assets/fluent_globe_showing_asia_australia.png",
+      "sha256": "2425b438be805a2e54bfc1a40f93418c484c6ec392a17090f18ab3fbf62868ac",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Globe%20showing%20asia-australia/3D/globe_showing_asia-australia_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_bone",
+      "design": "fluent_bone",
+      "label": "骨头",
+      "themes": [
+        "pet"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "骨头",
+        "bone"
+      ],
+      "file": "assets/fluent_bone.png",
+      "sha256": "d022601ad86ed6a17405c8620f0e7bebc52639667f30d8e237f68c4cd8daac4d",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Bone/3D/bone_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_rabbit_face",
+      "design": "fluent_rabbit_face",
+      "label": "兔子",
+      "themes": [
+        "pet"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "兔子",
+        "rabbit face"
+      ],
+      "file": "assets/fluent_rabbit_face.png",
+      "sha256": "49e3894d0e17c2eeea2b81f50d36ff407731d8b1983f3b5d71a7f7304dcbd5b3",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Rabbit%20face/3D/rabbit_face_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_fish",
+      "design": "fluent_fish",
+      "label": "鱼",
+      "themes": [
+        "pet",
+        "nature"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "鱼",
+        "fish"
+      ],
+      "file": "assets/fluent_fish.png",
+      "sha256": "d219342f1f416f2a89b5f6d412743bc809ac75d3be3d8cff0bc0cf5af5e288fa",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Fish/3D/fish_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_dog",
+      "design": "fluent_dog",
+      "label": "小狗",
+      "themes": [
+        "pet"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "小狗",
+        "dog"
+      ],
+      "file": "assets/fluent_dog.png",
+      "sha256": "27ce5eadb088d9c7a5658b6c3b6aa4484c7a75983e8e1a9988845a54f90f1bcb",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Dog/3D/dog_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_confetti_ball",
+      "design": "fluent_confetti_ball",
+      "label": "彩纸球",
+      "themes": [
+        "celebration"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "彩纸球",
+        "confetti ball"
+      ],
+      "file": "assets/fluent_confetti_ball.png",
+      "sha256": "92dc91f0566a3e103c71bf8e96ef693aa7509cf810b239203ae2d8b66a11bf0b",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Confetti%20ball/3D/confetti_ball_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_fireworks",
+      "design": "fluent_fireworks",
+      "label": "烟花",
+      "themes": [
+        "celebration"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "烟花",
+        "fireworks"
+      ],
+      "file": "assets/fluent_fireworks.png",
+      "sha256": "25838694c923a57e5c7912af18893d7eb031da0b1591a1c3e648a3e7807bfd2c",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Fireworks/3D/fireworks_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_shooting_star",
+      "design": "fluent_shooting_star",
+      "label": "流星",
+      "themes": [
+        "celebration",
+        "nature"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "流星",
+        "shooting star"
+      ],
+      "file": "assets/fluent_shooting_star.png",
+      "sha256": "780df133da58745c45b7da2f61e5fadba3c7eeb39ac8372d6703fd01190b47eb",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Shooting%20star/3D/shooting_star_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_graduation_cap",
+      "design": "fluent_graduation_cap",
+      "label": "学士帽",
+      "themes": [
+        "education",
+        "celebration"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "学士帽",
+        "graduation cap"
+      ],
+      "file": "assets/fluent_graduation_cap.png",
+      "sha256": "af7b4d07c067b9cdb4fa7b717c1c2bcb716a893e6b134c0f33ddeefd86f0be55",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Graduation%20cap/3D/graduation_cap_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_pencil",
+      "design": "fluent_pencil",
+      "label": "铅笔",
+      "themes": [
+        "education"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "铅笔",
+        "pencil"
+      ],
+      "file": "assets/fluent_pencil.png",
+      "sha256": "c33b52acc157fe010851709a6ba06ee7b9e107f9e421436c97fd4404c25dec3f",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Pencil/3D/pencil_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_artist_palette",
+      "design": "fluent_artist_palette",
+      "label": "调色盘",
+      "themes": [
+        "education",
+        "beauty"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "调色盘",
+        "artist palette"
+      ],
+      "file": "assets/fluent_artist_palette.png",
+      "sha256": "147e62f6523e7e923add4ed5497bf90982d22e04eb2e65ab916b743de2dbe1d2",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Artist%20palette/3D/artist_palette_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "fluent_books",
+      "design": "fluent_books",
+      "label": "书籍",
+      "themes": [
+        "education"
+      ],
+      "neutral": false,
+      "palette": "3d",
+      "style": "3d",
+      "keywords": [
+        "书籍",
+        "books"
+      ],
+      "file": "assets/fluent_books.png",
+      "sha256": "36f75eaa1e1a849fc950f43962b447c206d96244858468240a6a81beaa97f7be",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "license_file": "LICENSE-microsoft.txt",
+      "source_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Books/3D/books_3d.png",
+      "source_revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "source_repository": "https://github.com/microsoft/fluentui-emoji",
+      "modifications": "none"
+    },
+    {
+      "id": "iconpark_cn_buy",
+      "design": "iconpark_buy",
+      "label": "国内电商 · 购买",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": false,
+      "palette": "cn_commerce",
+      "style": "cn_commerce",
+      "collection": "iconpark_cn_commerce",
+      "file": "assets/iconpark_cn_buy.png",
+      "width": 1024,
+      "height": 1024,
+      "license": "Apache-2.0",
+      "license_file": "LICENSE-iconpark.txt",
+      "author": "常留留",
+      "source_repository": "https://github.com/bytedance/IconPark",
+      "source_url": "https://cdn.jsdelivr.net/npm/@icon-park/svg@1.4.2/es/icons/Buy.js",
+      "source_package": "@icon-park/svg@1.4.2",
+      "source_archive_sha256": "fbd548c2d6c3830a56828c9cf09787d61ce2a74a4f398919059e111de17c504b",
+      "source_template_sha256": "365debf4a97cae420be53cdfe348d8a752ecc9dfeb32224ae3f1f03912e6242d",
+      "source_svg": "sources/iconpark/buy.svg",
+      "modifications": "Official multicolor parameters configured red/yellow; SVG rasterized at 1024px. No AI.",
+      "ai_generated": false,
+      "origin_country": "CN",
+      "locale": "zh-CN",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "购买",
+        "购物",
+        "采购",
+        "手提包",
+        "购物袋",
+        "袋子",
+        "国内电商",
+        "带货"
+      ],
+      "sha256": "24e360915eada673f2deb37f771c2ef9c385e29666ad24a7503f7c36eb7009f8"
+    },
+    {
+      "id": "iconpark_cn_commodity",
+      "design": "iconpark_commodity",
+      "label": "国内电商 · 商品",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": false,
+      "palette": "cn_commerce",
+      "style": "cn_commerce",
+      "collection": "iconpark_cn_commerce",
+      "file": "assets/iconpark_cn_commodity.png",
+      "width": 1024,
+      "height": 1024,
+      "license": "Apache-2.0",
+      "license_file": "LICENSE-iconpark.txt",
+      "author": "齐奉飞",
+      "source_repository": "https://github.com/bytedance/IconPark",
+      "source_url": "https://cdn.jsdelivr.net/npm/@icon-park/svg@1.4.2/es/icons/Commodity.js",
+      "source_package": "@icon-park/svg@1.4.2",
+      "source_archive_sha256": "fbd548c2d6c3830a56828c9cf09787d61ce2a74a4f398919059e111de17c504b",
+      "source_template_sha256": "b67b86c27997ae63398fe3477dd7f776b3e4f0dc207681e296f42c696c2d60b6",
+      "source_svg": "sources/iconpark/commodity.svg",
+      "modifications": "Official multicolor parameters configured red/yellow; SVG rasterized at 1024px. No AI.",
+      "ai_generated": false,
+      "origin_country": "CN",
+      "locale": "zh-CN",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "商品",
+        "货品",
+        "购物",
+        "国内电商",
+        "带货"
+      ],
+      "sha256": "b7ef0e46090b0dada1a321d834c80fc38a4ed68963607b926f6cbc85ba3b8c58"
+    },
+    {
+      "id": "iconpark_cn_coupon",
+      "design": "iconpark_coupon",
+      "label": "国内电商 · 优惠券",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": false,
+      "palette": "cn_commerce",
+      "style": "cn_commerce",
+      "collection": "iconpark_cn_commerce",
+      "file": "assets/iconpark_cn_coupon.png",
+      "width": 1024,
+      "height": 1024,
+      "license": "Apache-2.0",
+      "license_file": "LICENSE-iconpark.txt",
+      "author": "常留留",
+      "source_repository": "https://github.com/bytedance/IconPark",
+      "source_url": "https://cdn.jsdelivr.net/npm/@icon-park/svg@1.4.2/es/icons/Coupon.js",
+      "source_package": "@icon-park/svg@1.4.2",
+      "source_archive_sha256": "fbd548c2d6c3830a56828c9cf09787d61ce2a74a4f398919059e111de17c504b",
+      "source_template_sha256": "184e6a9262704f4423a81b80e68600de875c69d6d67572a2a8de6a4b9055e750",
+      "source_svg": "sources/iconpark/coupon.svg",
+      "modifications": "Official multicolor parameters configured red/yellow; SVG rasterized at 1024px. No AI.",
+      "ai_generated": false,
+      "origin_country": "CN",
+      "locale": "zh-CN",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "优惠券",
+        "优惠",
+        "卡券",
+        "促销",
+        "电商",
+        "钱",
+        "折扣",
+        "国内电商",
+        "带货"
+      ],
+      "sha256": "48c813ed94439ed59bdaabf6eee404edc5d1ddb6092566dfdbd2acb7008da761"
+    },
+    {
+      "id": "iconpark_cn_gift",
+      "design": "iconpark_gift",
+      "label": "国内电商 · 礼物",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": false,
+      "palette": "cn_commerce",
+      "style": "cn_commerce",
+      "collection": "iconpark_cn_commerce",
+      "file": "assets/iconpark_cn_gift.png",
+      "width": 1024,
+      "height": 1024,
+      "license": "Apache-2.0",
+      "license_file": "LICENSE-iconpark.txt",
+      "author": "齐奉飞",
+      "source_repository": "https://github.com/bytedance/IconPark",
+      "source_url": "https://cdn.jsdelivr.net/npm/@icon-park/svg@1.4.2/es/icons/Gift.js",
+      "source_package": "@icon-park/svg@1.4.2",
+      "source_archive_sha256": "fbd548c2d6c3830a56828c9cf09787d61ce2a74a4f398919059e111de17c504b",
+      "source_template_sha256": "8426b759ebf2b9f16ce892fb2aa875fa69ba11ac4c641001ae6b446f7555d531",
+      "source_svg": "sources/iconpark/gift.svg",
+      "modifications": "Official multicolor parameters configured red/yellow; SVG rasterized at 1024px. No AI.",
+      "ai_generated": false,
+      "origin_country": "CN",
+      "locale": "zh-CN",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "礼物",
+        "礼盒",
+        "礼品",
+        "惊喜",
+        "神秘",
+        "国内电商",
+        "带货"
+      ],
+      "sha256": "4ecbc1c369f30b53f54f14ce4e2460c0ff36dd989de7b0b2cf340f408e681472"
+    },
+    {
+      "id": "iconpark_cn_gift_bag",
+      "design": "iconpark_gift-bag",
+      "label": "国内电商 · 礼盒",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": false,
+      "palette": "cn_commerce",
+      "style": "cn_commerce",
+      "collection": "iconpark_cn_commerce",
+      "file": "assets/iconpark_cn_gift_bag.png",
+      "width": 1024,
+      "height": 1024,
+      "license": "Apache-2.0",
+      "license_file": "LICENSE-iconpark.txt",
+      "author": "杨威",
+      "source_repository": "https://github.com/bytedance/IconPark",
+      "source_url": "https://cdn.jsdelivr.net/npm/@icon-park/svg@1.4.2/es/icons/GiftBag.js",
+      "source_package": "@icon-park/svg@1.4.2",
+      "source_archive_sha256": "fbd548c2d6c3830a56828c9cf09787d61ce2a74a4f398919059e111de17c504b",
+      "source_template_sha256": "4d31a18fc4aca745a78740492fa8c9eab766c36cf6f7d9eb8eb02ce0927c934e",
+      "source_svg": "sources/iconpark/gift-bag.svg",
+      "modifications": "Official multicolor parameters configured red/yellow; SVG rasterized at 1024px. No AI.",
+      "ai_generated": false,
+      "origin_country": "CN",
+      "locale": "zh-CN",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "礼盒",
+        "国内电商",
+        "带货"
+      ],
+      "sha256": "12194d3f0242de272719542c65535ff7bf1043c469df3c9b527ddc1869c9e44b"
+    },
+    {
+      "id": "iconpark_cn_gift_box",
+      "design": "iconpark_gift-box",
+      "label": "国内电商 · 礼物盒",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": false,
+      "palette": "cn_commerce",
+      "style": "cn_commerce",
+      "collection": "iconpark_cn_commerce",
+      "file": "assets/iconpark_cn_gift_box.png",
+      "width": 1024,
+      "height": 1024,
+      "license": "Apache-2.0",
+      "license_file": "LICENSE-iconpark.txt",
+      "author": "金磊",
+      "source_repository": "https://github.com/bytedance/IconPark",
+      "source_url": "https://cdn.jsdelivr.net/npm/@icon-park/svg@1.4.2/es/icons/GiftBox.js",
+      "source_package": "@icon-park/svg@1.4.2",
+      "source_archive_sha256": "fbd548c2d6c3830a56828c9cf09787d61ce2a74a4f398919059e111de17c504b",
+      "source_template_sha256": "cd45f6fe24d0b040da68e5cccb6c538051bc6265720dfe49c8c56aacd7d19173",
+      "source_svg": "sources/iconpark/gift-box.svg",
+      "modifications": "Official multicolor parameters configured red/yellow; SVG rasterized at 1024px. No AI.",
+      "ai_generated": false,
+      "origin_country": "CN",
+      "locale": "zh-CN",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "礼物盒",
+        "神秘",
+        "国内电商",
+        "带货"
+      ],
+      "sha256": "56b8812e84a38d9346488bae91e7e16e47381f00949eac9b109fba85a1fffa7e"
+    },
+    {
+      "id": "iconpark_cn_mall_bag",
+      "design": "iconpark_mall-bag",
+      "label": "国内电商 · 购物袋",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": false,
+      "palette": "cn_commerce",
+      "style": "cn_commerce",
+      "collection": "iconpark_cn_commerce",
+      "file": "assets/iconpark_cn_mall_bag.png",
+      "width": 1024,
+      "height": 1024,
+      "license": "Apache-2.0",
+      "license_file": "LICENSE-iconpark.txt",
+      "author": "刘心乐",
+      "source_repository": "https://github.com/bytedance/IconPark",
+      "source_url": "https://cdn.jsdelivr.net/npm/@icon-park/svg@1.4.2/es/icons/MallBag.js",
+      "source_package": "@icon-park/svg@1.4.2",
+      "source_archive_sha256": "fbd548c2d6c3830a56828c9cf09787d61ce2a74a4f398919059e111de17c504b",
+      "source_template_sha256": "0c0df134bb232b10a233848030493c8376a9ac7527f95bfbd049413299404899",
+      "source_svg": "sources/iconpark/mall-bag.svg",
+      "modifications": "Official multicolor parameters configured red/yellow; SVG rasterized at 1024px. No AI.",
+      "ai_generated": false,
+      "origin_country": "CN",
+      "locale": "zh-CN",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "购物袋",
+        "袋子",
+        "逛街",
+        "国内电商",
+        "带货"
+      ],
+      "sha256": "77b949eafaf7b76ce0476025a10b66fd3c21793d90b43dc367aa039b3362d67f"
+    },
+    {
+      "id": "iconpark_cn_red_envelope",
+      "design": "iconpark_red-envelope",
+      "label": "国内电商 · 红包",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": false,
+      "palette": "cn_commerce",
+      "style": "cn_commerce",
+      "collection": "iconpark_cn_commerce",
+      "file": "assets/iconpark_cn_red_envelope.png",
+      "width": 1024,
+      "height": 1024,
+      "license": "Apache-2.0",
+      "license_file": "LICENSE-iconpark.txt",
+      "author": "史晓彤",
+      "source_repository": "https://github.com/bytedance/IconPark",
+      "source_url": "https://cdn.jsdelivr.net/npm/@icon-park/svg@1.4.2/es/icons/RedEnvelope.js",
+      "source_package": "@icon-park/svg@1.4.2",
+      "source_archive_sha256": "fbd548c2d6c3830a56828c9cf09787d61ce2a74a4f398919059e111de17c504b",
+      "source_template_sha256": "38ff236ce91a9a6424b12d7f164a1d55a2c35421ea4793be713ea8d46e7379f4",
+      "source_svg": "sources/iconpark/red-envelope.svg",
+      "modifications": "Official multicolor parameters configured red/yellow; SVG rasterized at 1024px. No AI.",
+      "ai_generated": false,
+      "origin_country": "CN",
+      "locale": "zh-CN",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "红包",
+        "钱",
+        "国内电商",
+        "带货"
+      ],
+      "sha256": "31a848fbacaa6e6b2c54747bd5a4159f2ceabb33d5a15f7f5cdef60f5601b033"
+    },
+    {
+      "id": "iconpark_cn_red_envelopes",
+      "design": "iconpark_red-envelopes",
+      "label": "国内电商 · 红包",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": false,
+      "palette": "cn_commerce",
+      "style": "cn_commerce",
+      "collection": "iconpark_cn_commerce",
+      "file": "assets/iconpark_cn_red_envelopes.png",
+      "width": 1024,
+      "height": 1024,
+      "license": "Apache-2.0",
+      "license_file": "LICENSE-iconpark.txt",
+      "author": "常留留",
+      "source_repository": "https://github.com/bytedance/IconPark",
+      "source_url": "https://cdn.jsdelivr.net/npm/@icon-park/svg@1.4.2/es/icons/RedEnvelopes.js",
+      "source_package": "@icon-park/svg@1.4.2",
+      "source_archive_sha256": "fbd548c2d6c3830a56828c9cf09787d61ce2a74a4f398919059e111de17c504b",
+      "source_template_sha256": "ce448227be4132589dac14d0f7284538f04c2801e080a97fec08365f54179c5e",
+      "source_svg": "sources/iconpark/red-envelopes.svg",
+      "modifications": "Official multicolor parameters configured red/yellow; SVG rasterized at 1024px. No AI.",
+      "ai_generated": false,
+      "origin_country": "CN",
+      "locale": "zh-CN",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "红包",
+        "钱",
+        "国内电商",
+        "带货"
+      ],
+      "sha256": "794f8c4f818e29432e5854682ee5ede28cadb1d8c56049e0c43934e4ee48966e"
+    },
+    {
+      "id": "iconpark_cn_shopping_bag",
+      "design": "iconpark_shopping-bag",
+      "label": "国内电商 · 购物袋",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": false,
+      "palette": "cn_commerce",
+      "style": "cn_commerce",
+      "collection": "iconpark_cn_commerce",
+      "file": "assets/iconpark_cn_shopping_bag.png",
+      "width": 1024,
+      "height": 1024,
+      "license": "Apache-2.0",
+      "license_file": "LICENSE-iconpark.txt",
+      "author": "史晓彤",
+      "source_repository": "https://github.com/bytedance/IconPark",
+      "source_url": "https://cdn.jsdelivr.net/npm/@icon-park/svg@1.4.2/es/icons/ShoppingBag.js",
+      "source_package": "@icon-park/svg@1.4.2",
+      "source_archive_sha256": "fbd548c2d6c3830a56828c9cf09787d61ce2a74a4f398919059e111de17c504b",
+      "source_template_sha256": "46870d1c29d6ff8bbe0af85f7543c4371d36cb13d6a2e9b7192fc4f65cff5c24",
+      "source_svg": "sources/iconpark/shopping-bag.svg",
+      "modifications": "Official multicolor parameters configured red/yellow; SVG rasterized at 1024px. No AI.",
+      "ai_generated": false,
+      "origin_country": "CN",
+      "locale": "zh-CN",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "购物袋",
+        "快消品",
+        "逛街",
+        "包包",
+        "手提袋",
+        "购物车",
+        "消费",
+        "国内电商",
+        "带货"
+      ],
+      "sha256": "cbe797710b3c47567663a735537339f088cffa19b3061f7536a3e672352f1841"
+    },
+    {
+      "id": "iconpark_cn_shopping_bag_one",
+      "design": "iconpark_shopping-bag-one",
+      "label": "国内电商 · 购物袋1",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": false,
+      "palette": "cn_commerce",
+      "style": "cn_commerce",
+      "collection": "iconpark_cn_commerce",
+      "file": "assets/iconpark_cn_shopping_bag_one.png",
+      "width": 1024,
+      "height": 1024,
+      "license": "Apache-2.0",
+      "license_file": "LICENSE-iconpark.txt",
+      "author": "杨威",
+      "source_repository": "https://github.com/bytedance/IconPark",
+      "source_url": "https://cdn.jsdelivr.net/npm/@icon-park/svg@1.4.2/es/icons/ShoppingBagOne.js",
+      "source_package": "@icon-park/svg@1.4.2",
+      "source_archive_sha256": "fbd548c2d6c3830a56828c9cf09787d61ce2a74a4f398919059e111de17c504b",
+      "source_template_sha256": "99a165f0a54a602d9cfbd0c109700aaf81f7337f45fc09f1398ec05617717061",
+      "source_svg": "sources/iconpark/shopping-bag-one.svg",
+      "modifications": "Official multicolor parameters configured red/yellow; SVG rasterized at 1024px. No AI.",
+      "ai_generated": false,
+      "origin_country": "CN",
+      "locale": "zh-CN",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "购物袋1",
+        "国内电商",
+        "带货"
+      ],
+      "sha256": "f6c45e1fdc14a352305388dbfd5ffd1968e174b6506f57a37823f40302650cdc"
+    },
+    {
+      "id": "iconpark_cn_shopping_cart_add",
+      "design": "iconpark_shopping-cart-add",
+      "label": "国内电商 · 添加购物车",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": false,
+      "palette": "cn_commerce",
+      "style": "cn_commerce",
+      "collection": "iconpark_cn_commerce",
+      "file": "assets/iconpark_cn_shopping_cart_add.png",
+      "width": 1024,
+      "height": 1024,
+      "license": "Apache-2.0",
+      "license_file": "LICENSE-iconpark.txt",
+      "author": "齐奉飞",
+      "source_repository": "https://github.com/bytedance/IconPark",
+      "source_url": "https://cdn.jsdelivr.net/npm/@icon-park/svg@1.4.2/es/icons/ShoppingCartAdd.js",
+      "source_package": "@icon-park/svg@1.4.2",
+      "source_archive_sha256": "fbd548c2d6c3830a56828c9cf09787d61ce2a74a4f398919059e111de17c504b",
+      "source_template_sha256": "b630b290498474f7061c1f72248cb047592e476e2c18475d6499145d1498438b",
+      "source_svg": "sources/iconpark/shopping-cart-add.svg",
+      "modifications": "Official multicolor parameters configured red/yellow; SVG rasterized at 1024px. No AI.",
+      "ai_generated": false,
+      "origin_country": "CN",
+      "locale": "zh-CN",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "添加购物车",
+        "购物车",
+        "添加",
+        "买东西",
+        "购物",
+        "国内电商",
+        "带货"
+      ],
+      "sha256": "7bee5a6fc994d59280719349ea7f353a3fcba40d0ab90a290b01960fb1ba4bda"
+    },
+    {
+      "id": "iconpark_cn_shopping_cart_one",
+      "design": "iconpark_shopping-cart-one",
+      "label": "国内电商 · 购物车1",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": false,
+      "palette": "cn_commerce",
+      "style": "cn_commerce",
+      "collection": "iconpark_cn_commerce",
+      "file": "assets/iconpark_cn_shopping_cart_one.png",
+      "width": 1024,
+      "height": 1024,
+      "license": "Apache-2.0",
+      "license_file": "LICENSE-iconpark.txt",
+      "author": "史晓彤",
+      "source_repository": "https://github.com/bytedance/IconPark",
+      "source_url": "https://cdn.jsdelivr.net/npm/@icon-park/svg@1.4.2/es/icons/ShoppingCartOne.js",
+      "source_package": "@icon-park/svg@1.4.2",
+      "source_archive_sha256": "fbd548c2d6c3830a56828c9cf09787d61ce2a74a4f398919059e111de17c504b",
+      "source_template_sha256": "52cf4addf556b6b772cf4d65efa0b9ab8abc139760ce0b4b346a054102e43b6d",
+      "source_svg": "sources/iconpark/shopping-cart-one.svg",
+      "modifications": "Official multicolor parameters configured red/yellow; SVG rasterized at 1024px. No AI.",
+      "ai_generated": false,
+      "origin_country": "CN",
+      "locale": "zh-CN",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "购物车1",
+        "购物车",
+        "消费",
+        "买东西",
+        "电商",
+        "商超",
+        "国内电商",
+        "带货"
+      ],
+      "sha256": "95c8586d294878c81bcf2eb2a0e562bac085dede8e3d75cfddb1c81f6fbd902d"
+    },
+    {
+      "id": "iconpark_cn_shopping_cart_two",
+      "design": "iconpark_shopping-cart-two",
+      "label": "国内电商 · 购物车2",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": false,
+      "palette": "cn_commerce",
+      "style": "cn_commerce",
+      "collection": "iconpark_cn_commerce",
+      "file": "assets/iconpark_cn_shopping_cart_two.png",
+      "width": 1024,
+      "height": 1024,
+      "license": "Apache-2.0",
+      "license_file": "LICENSE-iconpark.txt",
+      "author": "杨威",
+      "source_repository": "https://github.com/bytedance/IconPark",
+      "source_url": "https://cdn.jsdelivr.net/npm/@icon-park/svg@1.4.2/es/icons/ShoppingCartTwo.js",
+      "source_package": "@icon-park/svg@1.4.2",
+      "source_archive_sha256": "fbd548c2d6c3830a56828c9cf09787d61ce2a74a4f398919059e111de17c504b",
+      "source_template_sha256": "5205ea19c5cce9ccb37668682561a46f957645790ed02271aea677ad97cc4fcc",
+      "source_svg": "sources/iconpark/shopping-cart-two.svg",
+      "modifications": "Official multicolor parameters configured red/yellow; SVG rasterized at 1024px. No AI.",
+      "ai_generated": false,
+      "origin_country": "CN",
+      "locale": "zh-CN",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "购物车2",
+        "国内电商",
+        "带货"
+      ],
+      "sha256": "b2a6f7713131359ec0355cd26ee1e4e08ce324872d398ba27b6257f8aad1aa49"
+    },
+    {
+      "id": "iconpark_cn_tag_one",
+      "design": "iconpark_tag-one",
+      "label": "国内电商 · 标签",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": false,
+      "palette": "cn_commerce",
+      "style": "cn_commerce",
+      "collection": "iconpark_cn_commerce",
+      "file": "assets/iconpark_cn_tag_one.png",
+      "width": 1024,
+      "height": 1024,
+      "license": "Apache-2.0",
+      "license_file": "LICENSE-iconpark.txt",
+      "author": "刘心乐",
+      "source_repository": "https://github.com/bytedance/IconPark",
+      "source_url": "https://cdn.jsdelivr.net/npm/@icon-park/svg@1.4.2/es/icons/TagOne.js",
+      "source_package": "@icon-park/svg@1.4.2",
+      "source_archive_sha256": "fbd548c2d6c3830a56828c9cf09787d61ce2a74a4f398919059e111de17c504b",
+      "source_template_sha256": "fc0ea2fdd206980bd0e61f30ae611e6cb2c99b5aaa4652016ceb8de24c73cfd6",
+      "source_svg": "sources/iconpark/tag-one.svg",
+      "modifications": "Official multicolor parameters configured red/yellow; SVG rasterized at 1024px. No AI.",
+      "ai_generated": false,
+      "origin_country": "CN",
+      "locale": "zh-CN",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "标签",
+        "便签",
+        "折扣",
+        "标记",
+        "价签",
+        "国内电商",
+        "带货"
+      ],
+      "sha256": "51add38fc943bee3a03210534ab4b295e236760cf44fe5abbbaefdf31a0cabe8"
+    },
+    {
+      "id": "iconpark_cn_ticket",
+      "design": "iconpark_ticket",
+      "label": "国内电商 · 券",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": false,
+      "palette": "cn_commerce",
+      "style": "cn_commerce",
+      "collection": "iconpark_cn_commerce",
+      "file": "assets/iconpark_cn_ticket.png",
+      "width": 1024,
+      "height": 1024,
+      "license": "Apache-2.0",
+      "license_file": "LICENSE-iconpark.txt",
+      "author": "田婧",
+      "source_repository": "https://github.com/bytedance/IconPark",
+      "source_url": "https://cdn.jsdelivr.net/npm/@icon-park/svg@1.4.2/es/icons/Ticket.js",
+      "source_package": "@icon-park/svg@1.4.2",
+      "source_archive_sha256": "fbd548c2d6c3830a56828c9cf09787d61ce2a74a4f398919059e111de17c504b",
+      "source_template_sha256": "02154b2ebb0341302ce1d2a2425c2bfba44d36e9e133299c73a0afb5cb9573bb",
+      "source_svg": "sources/iconpark/ticket.svg",
+      "modifications": "Official multicolor parameters configured red/yellow; SVG rasterized at 1024px. No AI.",
+      "ai_generated": false,
+      "origin_country": "CN",
+      "locale": "zh-CN",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "券",
+        "饭票",
+        "电影票",
+        "活动票",
+        "门票",
+        "优惠券",
+        "国内电商",
+        "带货"
+      ],
+      "sha256": "f475e29ab56e79f2e7a69620ed71da39d9a0c7816189d556fc5f37b40f5a8116"
+    },
+    {
+      "id": "iconpark_cn_paper_money",
+      "design": "iconpark_paper-money",
+      "label": "国内电商 · 钞票",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": false,
+      "palette": "cn_commerce",
+      "style": "cn_commerce",
+      "collection": "iconpark_cn_commerce",
+      "file": "assets/iconpark_cn_paper_money.png",
+      "width": 1024,
+      "height": 1024,
+      "license": "Apache-2.0",
+      "license_file": "LICENSE-iconpark.txt",
+      "author": "白明泽",
+      "source_repository": "https://github.com/bytedance/IconPark",
+      "source_url": "https://cdn.jsdelivr.net/npm/@icon-park/svg@1.4.2/es/icons/PaperMoney.js",
+      "source_package": "@icon-park/svg@1.4.2",
+      "source_archive_sha256": "fbd548c2d6c3830a56828c9cf09787d61ce2a74a4f398919059e111de17c504b",
+      "source_template_sha256": "c06cd8761858aaead9100e6b2bd56322d88283f4b9e1dec2047572f0baa7b71c",
+      "source_svg": "sources/iconpark/paper-money.svg",
+      "modifications": "Official multicolor parameters configured red/yellow; SVG rasterized at 1024px. No AI.",
+      "ai_generated": false,
+      "origin_country": "CN",
+      "locale": "zh-CN",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "钞票",
+        "钱财",
+        "财产",
+        "资金",
+        "金融",
+        "经济",
+        "国内电商",
+        "带货"
+      ],
+      "sha256": "2f96b0fb472c28fd7910bbcdb17bfc4d6d7ebc77540316ced53565babfc63bf0"
+    },
+    {
+      "id": "iconpark_cn_paper_money_two",
+      "design": "iconpark_paper-money-two",
+      "label": "国内电商 · 钞票",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": false,
+      "palette": "cn_commerce",
+      "style": "cn_commerce",
+      "collection": "iconpark_cn_commerce",
+      "file": "assets/iconpark_cn_paper_money_two.png",
+      "width": 1024,
+      "height": 1024,
+      "license": "Apache-2.0",
+      "license_file": "LICENSE-iconpark.txt",
+      "author": "金磊",
+      "source_repository": "https://github.com/bytedance/IconPark",
+      "source_url": "https://cdn.jsdelivr.net/npm/@icon-park/svg@1.4.2/es/icons/PaperMoneyTwo.js",
+      "source_package": "@icon-park/svg@1.4.2",
+      "source_archive_sha256": "fbd548c2d6c3830a56828c9cf09787d61ce2a74a4f398919059e111de17c504b",
+      "source_template_sha256": "0629208b92b81c2e98dfa3ae6f2424cc78c0bcd078195d6a8de82c9bb5ff7747",
+      "source_svg": "sources/iconpark/paper-money-two.svg",
+      "modifications": "Official multicolor parameters configured red/yellow; SVG rasterized at 1024px. No AI.",
+      "ai_generated": false,
+      "origin_country": "CN",
+      "locale": "zh-CN",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "钞票",
+        "钱",
+        "财富",
+        "资金",
+        "投资",
+        "美元",
+        "国内电商",
+        "带货"
+      ],
+      "sha256": "8921f3d2d3528b380f8a8a0b7ca20afb0a0f2fa4019932e6b66498207f0a475e"
+    },
+    {
+      "id": "iconpark_cn_consume",
+      "design": "iconpark_consume",
+      "label": "国内电商 · 消费",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": false,
+      "palette": "cn_commerce",
+      "style": "cn_commerce",
+      "collection": "iconpark_cn_commerce",
+      "file": "assets/iconpark_cn_consume.png",
+      "width": 1024,
+      "height": 1024,
+      "license": "Apache-2.0",
+      "license_file": "LICENSE-iconpark.txt",
+      "author": "常留留",
+      "source_repository": "https://github.com/bytedance/IconPark",
+      "source_url": "https://cdn.jsdelivr.net/npm/@icon-park/svg@1.4.2/es/icons/Consume.js",
+      "source_package": "@icon-park/svg@1.4.2",
+      "source_archive_sha256": "fbd548c2d6c3830a56828c9cf09787d61ce2a74a4f398919059e111de17c504b",
+      "source_template_sha256": "d8c5b4799e4b7eeb6b93c998bed8a2dc1a167181befadbc13cddf06418db860a",
+      "source_svg": "sources/iconpark/consume.svg",
+      "modifications": "Official multicolor parameters configured red/yellow; SVG rasterized at 1024px. No AI.",
+      "ai_generated": false,
+      "origin_country": "CN",
+      "locale": "zh-CN",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "消费",
+        "总消耗",
+        "花钱",
+        "花费",
+        "钱包",
+        "国内电商",
+        "带货"
+      ],
+      "sha256": "c1666d229aa9b9e2e913a502e6221563de08883dba82e34cad6ef57cc0a25ab3"
+    },
+    {
+      "id": "iconpark_cn_wallet",
+      "design": "iconpark_wallet",
+      "label": "国内电商 · 钱包",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": false,
+      "palette": "cn_commerce",
+      "style": "cn_commerce",
+      "collection": "iconpark_cn_commerce",
+      "file": "assets/iconpark_cn_wallet.png",
+      "width": 1024,
+      "height": 1024,
+      "license": "Apache-2.0",
+      "license_file": "LICENSE-iconpark.txt",
+      "author": "刘心乐",
+      "source_repository": "https://github.com/bytedance/IconPark",
+      "source_url": "https://cdn.jsdelivr.net/npm/@icon-park/svg@1.4.2/es/icons/Wallet.js",
+      "source_package": "@icon-park/svg@1.4.2",
+      "source_archive_sha256": "fbd548c2d6c3830a56828c9cf09787d61ce2a74a4f398919059e111de17c504b",
+      "source_template_sha256": "1b85b6fedd1fdfa63ad8e3636a99bbaaaf1e1f98c75c8cc55d0fce6591f0eabb",
+      "source_svg": "sources/iconpark/wallet.svg",
+      "modifications": "Official multicolor parameters configured red/yellow; SVG rasterized at 1024px. No AI.",
+      "ai_generated": false,
+      "origin_country": "CN",
+      "locale": "zh-CN",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "钱包",
+        "钱",
+        "资金",
+        "金融",
+        "充值",
+        "国内电商",
+        "带货"
+      ],
+      "sha256": "0cba97955fc0526af00a64131dcc22a3b41bb269eab18fe660fdfdc21531c30b"
+    },
+    {
+      "id": "iconpark_cn_wallet_one",
+      "design": "iconpark_wallet-one",
+      "label": "国内电商 · 钱包",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": false,
+      "palette": "cn_commerce",
+      "style": "cn_commerce",
+      "collection": "iconpark_cn_commerce",
+      "file": "assets/iconpark_cn_wallet_one.png",
+      "width": 1024,
+      "height": 1024,
+      "license": "Apache-2.0",
+      "license_file": "LICENSE-iconpark.txt",
+      "author": "史晓彤",
+      "source_repository": "https://github.com/bytedance/IconPark",
+      "source_url": "https://cdn.jsdelivr.net/npm/@icon-park/svg@1.4.2/es/icons/WalletOne.js",
+      "source_package": "@icon-park/svg@1.4.2",
+      "source_archive_sha256": "fbd548c2d6c3830a56828c9cf09787d61ce2a74a4f398919059e111de17c504b",
+      "source_template_sha256": "ab13d16690377fce9926175f430492dc5b06c98e467ae97792ae37f6a0c61901",
+      "source_svg": "sources/iconpark/wallet-one.svg",
+      "modifications": "Official multicolor parameters configured red/yellow; SVG rasterized at 1024px. No AI.",
+      "ai_generated": false,
+      "origin_country": "CN",
+      "locale": "zh-CN",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "钱包",
+        "消费",
+        "卡包",
+        "国内电商",
+        "带货"
+      ],
+      "sha256": "1459681df5de75770639599a2053fb76cebfe6709c3071b3c54213436877919d"
+    },
+    {
+      "id": "iconpark_cn_transaction_order",
+      "design": "iconpark_transaction-order",
+      "label": "国内电商 · 交易清单",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": false,
+      "palette": "cn_commerce",
+      "style": "cn_commerce",
+      "collection": "iconpark_cn_commerce",
+      "file": "assets/iconpark_cn_transaction_order.png",
+      "width": 1024,
+      "height": 1024,
+      "license": "Apache-2.0",
+      "license_file": "LICENSE-iconpark.txt",
+      "author": "齐奉飞",
+      "source_repository": "https://github.com/bytedance/IconPark",
+      "source_url": "https://cdn.jsdelivr.net/npm/@icon-park/svg@1.4.2/es/icons/TransactionOrder.js",
+      "source_package": "@icon-park/svg@1.4.2",
+      "source_archive_sha256": "fbd548c2d6c3830a56828c9cf09787d61ce2a74a4f398919059e111de17c504b",
+      "source_template_sha256": "c95f3dfb190f55dd8a408fc246f1c8f0342d05bd611f6396d9b39d0642c8d3e5",
+      "source_svg": "sources/iconpark/transaction-order.svg",
+      "modifications": "Official multicolor parameters configured red/yellow; SVG rasterized at 1024px. No AI.",
+      "ai_generated": false,
+      "origin_country": "CN",
+      "locale": "zh-CN",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "交易清单",
+        "交易列表",
+        "国内电商",
+        "带货"
+      ],
+      "sha256": "26bbbee23b8e3f7cd1de011dbc5397e997b53bffa1bee0ed72a0924509130dff"
+    },
+    {
+      "id": "iconpark_cn_delivery",
+      "design": "iconpark_delivery",
+      "label": "国内电商 · 交货",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": false,
+      "palette": "cn_commerce",
+      "style": "cn_commerce",
+      "collection": "iconpark_cn_commerce",
+      "file": "assets/iconpark_cn_delivery.png",
+      "width": 1024,
+      "height": 1024,
+      "license": "Apache-2.0",
+      "license_file": "LICENSE-iconpark.txt",
+      "author": "陈子豪",
+      "source_repository": "https://github.com/bytedance/IconPark",
+      "source_url": "https://cdn.jsdelivr.net/npm/@icon-park/svg@1.4.2/es/icons/Delivery.js",
+      "source_package": "@icon-park/svg@1.4.2",
+      "source_archive_sha256": "fbd548c2d6c3830a56828c9cf09787d61ce2a74a4f398919059e111de17c504b",
+      "source_template_sha256": "810739da5d6b6673130ac7ea0c2bd25ecb6ee12bc2fc55302f6ecea86b71f12d",
+      "source_svg": "sources/iconpark/delivery.svg",
+      "modifications": "Official multicolor parameters configured red/yellow; SVG rasterized at 1024px. No AI.",
+      "ai_generated": false,
+      "origin_country": "CN",
+      "locale": "zh-CN",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "交货",
+        "服务",
+        "传递",
+        "交付",
+        "拱手相让",
+        "国内电商",
+        "带货"
+      ],
+      "sha256": "a32a9cb928a5177f01ac5c9e80e2779402c29e24b28730270f552c7fe62f4f4a"
+    },
+    {
+      "id": "iconpark_cn_express_delivery",
+      "design": "iconpark_express-delivery",
+      "label": "国内电商 · 快递",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": false,
+      "palette": "cn_commerce",
+      "style": "cn_commerce",
+      "collection": "iconpark_cn_commerce",
+      "file": "assets/iconpark_cn_express_delivery.png",
+      "width": 1024,
+      "height": 1024,
+      "license": "Apache-2.0",
+      "license_file": "LICENSE-iconpark.txt",
+      "author": "齐奉飞",
+      "source_repository": "https://github.com/bytedance/IconPark",
+      "source_url": "https://cdn.jsdelivr.net/npm/@icon-park/svg@1.4.2/es/icons/ExpressDelivery.js",
+      "source_package": "@icon-park/svg@1.4.2",
+      "source_archive_sha256": "fbd548c2d6c3830a56828c9cf09787d61ce2a74a4f398919059e111de17c504b",
+      "source_template_sha256": "47f32ff72c5d12d540e1b9e8d2d151ed6f902a644a7c18cf05bde40bad424e9a",
+      "source_svg": "sources/iconpark/express-delivery.svg",
+      "modifications": "Official multicolor parameters configured red/yellow; SVG rasterized at 1024px. No AI.",
+      "ai_generated": false,
+      "origin_country": "CN",
+      "locale": "zh-CN",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "快递",
+        "快递盒",
+        "快递箱",
+        "国内电商",
+        "带货"
+      ],
+      "sha256": "658431d46542f0e149330ae35b87e28c62e46766b2dbb85dc3649a14526bd2e2"
+    },
+    {
+      "id": "iconpark_cn_transporter",
+      "design": "iconpark_transporter",
+      "label": "国内电商 · 送货车",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": false,
+      "palette": "cn_commerce",
+      "style": "cn_commerce",
+      "collection": "iconpark_cn_commerce",
+      "file": "assets/iconpark_cn_transporter.png",
+      "width": 1024,
+      "height": 1024,
+      "license": "Apache-2.0",
+      "license_file": "LICENSE-iconpark.txt",
+      "author": "齐奉飞",
+      "source_repository": "https://github.com/bytedance/IconPark",
+      "source_url": "https://cdn.jsdelivr.net/npm/@icon-park/svg@1.4.2/es/icons/Transporter.js",
+      "source_package": "@icon-park/svg@1.4.2",
+      "source_archive_sha256": "fbd548c2d6c3830a56828c9cf09787d61ce2a74a4f398919059e111de17c504b",
+      "source_template_sha256": "658b3cd959b13f38538435823818357be58049ca9868046867fbe9dfd4be3829",
+      "source_svg": "sources/iconpark/transporter.svg",
+      "modifications": "Official multicolor parameters configured red/yellow; SVG rasterized at 1024px. No AI.",
+      "ai_generated": false,
+      "origin_country": "CN",
+      "locale": "zh-CN",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "送货车",
+        "快递车",
+        "运输车",
+        "国内电商",
+        "带货"
+      ],
+      "sha256": "3b46bd356bac27a00649d96c843504ffc2adc4421803616ecc10f4ddbac57fc1"
+    },
+    {
+      "id": "iconpark_cn_thumbs_up",
+      "design": "iconpark_thumbs-up",
+      "label": "国内电商 · 赞",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": true,
+      "palette": "cn_commerce",
+      "style": "cn_commerce",
+      "collection": "iconpark_cn_commerce",
+      "file": "assets/iconpark_cn_thumbs_up.png",
+      "width": 1024,
+      "height": 1024,
+      "license": "Apache-2.0",
+      "license_file": "LICENSE-iconpark.txt",
+      "author": "刘心乐",
+      "source_repository": "https://github.com/bytedance/IconPark",
+      "source_url": "https://cdn.jsdelivr.net/npm/@icon-park/svg@1.4.2/es/icons/ThumbsUp.js",
+      "source_package": "@icon-park/svg@1.4.2",
+      "source_archive_sha256": "fbd548c2d6c3830a56828c9cf09787d61ce2a74a4f398919059e111de17c504b",
+      "source_template_sha256": "b14e7abfa3bfa5b525aa50f173d3a7578e4643d3f525b92a0a3eb49e1c2dcd81",
+      "source_svg": "sources/iconpark/thumbs-up.svg",
+      "modifications": "Official multicolor parameters configured red/yellow; SVG rasterized at 1024px. No AI.",
+      "ai_generated": false,
+      "origin_country": "CN",
+      "locale": "zh-CN",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "赞",
+        "好评",
+        "点赞",
+        "优秀",
+        "国内电商",
+        "带货"
+      ],
+      "sha256": "886cc18b82e0349944aee04c62fa0612434973179894742f043caccf27c7f124"
+    },
+    {
+      "id": "iconpark_cn_like",
+      "design": "iconpark_like",
+      "label": "国内电商 · 喜欢",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": true,
+      "palette": "cn_commerce",
+      "style": "cn_commerce",
+      "collection": "iconpark_cn_commerce",
+      "file": "assets/iconpark_cn_like.png",
+      "width": 1024,
+      "height": 1024,
+      "license": "Apache-2.0",
+      "license_file": "LICENSE-iconpark.txt",
+      "author": "齐奉飞",
+      "source_repository": "https://github.com/bytedance/IconPark",
+      "source_url": "https://cdn.jsdelivr.net/npm/@icon-park/svg@1.4.2/es/icons/Like.js",
+      "source_package": "@icon-park/svg@1.4.2",
+      "source_archive_sha256": "fbd548c2d6c3830a56828c9cf09787d61ce2a74a4f398919059e111de17c504b",
+      "source_template_sha256": "47c44233ccebb644a89ba3b3586968e82c802497e8af5f7cbeda7eba538718e2",
+      "source_svg": "sources/iconpark/like.svg",
+      "modifications": "Official multicolor parameters configured red/yellow; SVG rasterized at 1024px. No AI.",
+      "ai_generated": false,
+      "origin_country": "CN",
+      "locale": "zh-CN",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "喜欢",
+        "关注",
+        "收藏",
+        "爱心",
+        "热爱",
+        "国内电商",
+        "带货"
+      ],
+      "sha256": "81bf961890c84216af85c1a25c2d7fd83ac1233f65c7797b78f51703d9d45f65"
+    },
+    {
+      "id": "iconpark_cn_fire",
+      "design": "iconpark_fire",
+      "label": "国内电商 · 火热",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": true,
+      "palette": "cn_commerce",
+      "style": "cn_commerce",
+      "collection": "iconpark_cn_commerce",
+      "file": "assets/iconpark_cn_fire.png",
+      "width": 1024,
+      "height": 1024,
+      "license": "Apache-2.0",
+      "license_file": "LICENSE-iconpark.txt",
+      "author": "常留留",
+      "source_repository": "https://github.com/bytedance/IconPark",
+      "source_url": "https://cdn.jsdelivr.net/npm/@icon-park/svg@1.4.2/es/icons/Fire.js",
+      "source_package": "@icon-park/svg@1.4.2",
+      "source_archive_sha256": "fbd548c2d6c3830a56828c9cf09787d61ce2a74a4f398919059e111de17c504b",
+      "source_template_sha256": "e001e5f3efbb2f3d66e6824aa1efef5e01e00f6d7f8f2678d77c5f07638dcc09",
+      "source_svg": "sources/iconpark/fire.svg",
+      "modifications": "Official multicolor parameters configured red/yellow; SVG rasterized at 1024px. No AI.",
+      "ai_generated": false,
+      "origin_country": "CN",
+      "locale": "zh-CN",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "火热",
+        "热门",
+        "流行",
+        "火",
+        "热",
+        "夏天",
+        "国内电商",
+        "带货"
+      ],
+      "sha256": "4fb64eeb39f63c329c7aae540c32bf546b9c6cde4f1b1d5d430a3f86ee873728"
+    },
+    {
+      "id": "iconpark_cn_lightning",
+      "design": "iconpark_lightning",
+      "label": "国内电商 · 闪电",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": true,
+      "palette": "cn_commerce",
+      "style": "cn_commerce",
+      "collection": "iconpark_cn_commerce",
+      "file": "assets/iconpark_cn_lightning.png",
+      "width": 1024,
+      "height": 1024,
+      "license": "Apache-2.0",
+      "license_file": "LICENSE-iconpark.txt",
+      "author": "金磊",
+      "source_repository": "https://github.com/bytedance/IconPark",
+      "source_url": "https://cdn.jsdelivr.net/npm/@icon-park/svg@1.4.2/es/icons/Lightning.js",
+      "source_package": "@icon-park/svg@1.4.2",
+      "source_archive_sha256": "fbd548c2d6c3830a56828c9cf09787d61ce2a74a4f398919059e111de17c504b",
+      "source_template_sha256": "b5b7563d4b82452df10aa0bea91b63d0dffd3e84138abbb3d9c7a97400735a8f",
+      "source_svg": "sources/iconpark/lightning.svg",
+      "modifications": "Official multicolor parameters configured red/yellow; SVG rasterized at 1024px. No AI.",
+      "ai_generated": false,
+      "origin_country": "CN",
+      "locale": "zh-CN",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "闪电",
+        "天气预报",
+        "打雷",
+        "下雨",
+        "国内电商",
+        "带货"
+      ],
+      "sha256": "b8636cbdb797f713e5aad5d226ad614e021890ad01b8c518634cd64ed2ef7527"
+    },
+    {
+      "id": "iconpark_cn_hand_down",
+      "design": "iconpark_hand-down",
+      "label": "国内电商 · 向下指",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": true,
+      "palette": "cn_commerce",
+      "style": "cn_commerce",
+      "collection": "iconpark_cn_commerce",
+      "file": "assets/iconpark_cn_hand_down.png",
+      "width": 1024,
+      "height": 1024,
+      "license": "Apache-2.0",
+      "license_file": "LICENSE-iconpark.txt",
+      "author": "常留留",
+      "source_repository": "https://github.com/bytedance/IconPark",
+      "source_url": "https://cdn.jsdelivr.net/npm/@icon-park/svg@1.4.2/es/icons/HandDown.js",
+      "source_package": "@icon-park/svg@1.4.2",
+      "source_archive_sha256": "fbd548c2d6c3830a56828c9cf09787d61ce2a74a4f398919059e111de17c504b",
+      "source_template_sha256": "096b3f20f2c0203a2384d006c67604fb83b256a0aafd0da65426ebb4f42015e1",
+      "source_svg": "sources/iconpark/hand-down.svg",
+      "modifications": "Official multicolor parameters configured red/yellow; SVG rasterized at 1024px. No AI.",
+      "ai_generated": false,
+      "origin_country": "CN",
+      "locale": "zh-CN",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "向下指",
+        "向下",
+        "下面",
+        "手",
+        "手势",
+        "hand",
+        "国内电商",
+        "带货"
+      ],
+      "sha256": "d3bb3ec5645628b3412db900a4c602dc1c0fecff78124b53c41f0a6468eb5d11"
+    },
+    {
+      "id": "iconpark_cn_hand_right",
+      "design": "iconpark_hand-right",
+      "label": "国内电商 · 向右指",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": true,
+      "palette": "cn_commerce",
+      "style": "cn_commerce",
+      "collection": "iconpark_cn_commerce",
+      "file": "assets/iconpark_cn_hand_right.png",
+      "width": 1024,
+      "height": 1024,
+      "license": "Apache-2.0",
+      "license_file": "LICENSE-iconpark.txt",
+      "author": "常留留",
+      "source_repository": "https://github.com/bytedance/IconPark",
+      "source_url": "https://cdn.jsdelivr.net/npm/@icon-park/svg@1.4.2/es/icons/HandRight.js",
+      "source_package": "@icon-park/svg@1.4.2",
+      "source_archive_sha256": "fbd548c2d6c3830a56828c9cf09787d61ce2a74a4f398919059e111de17c504b",
+      "source_template_sha256": "7c5091b09a41799e5c1c2f5a3da5b44d770c466f2d27f2395bf14cc873af2f9c",
+      "source_svg": "sources/iconpark/hand-right.svg",
+      "modifications": "Official multicolor parameters configured red/yellow; SVG rasterized at 1024px. No AI.",
+      "ai_generated": false,
+      "origin_country": "CN",
+      "locale": "zh-CN",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "向右指",
+        "向右",
+        "右边",
+        "手",
+        "手势",
+        "hand",
+        "国内电商",
+        "带货"
+      ],
+      "sha256": "406cfb6e1f5132a35552ef9ef9249089cf32e65cd43bf71a14f5a0d9e7589993"
+    },
+    {
+      "id": "iconpark_cn_check_one",
+      "design": "iconpark_check-one",
+      "label": "国内电商 · 校验",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": true,
+      "palette": "cn_commerce",
+      "style": "cn_commerce",
+      "collection": "iconpark_cn_commerce",
+      "file": "assets/iconpark_cn_check_one.png",
+      "width": 1024,
+      "height": 1024,
+      "license": "Apache-2.0",
+      "license_file": "LICENSE-iconpark.txt",
+      "author": "刘心乐",
+      "source_repository": "https://github.com/bytedance/IconPark",
+      "source_url": "https://cdn.jsdelivr.net/npm/@icon-park/svg@1.4.2/es/icons/CheckOne.js",
+      "source_package": "@icon-park/svg@1.4.2",
+      "source_archive_sha256": "fbd548c2d6c3830a56828c9cf09787d61ce2a74a4f398919059e111de17c504b",
+      "source_template_sha256": "5225a110f45c19e32a5590035eaf101bd59516d9a0f349f212e29b7b2f6647f8",
+      "source_svg": "sources/iconpark/check-one.svg",
+      "modifications": "Official multicolor parameters configured red/yellow; SVG rasterized at 1024px. No AI.",
+      "ai_generated": false,
+      "origin_country": "CN",
+      "locale": "zh-CN",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "校验",
+        "勾选",
+        "对勾",
+        "正确",
+        "成功",
+        "完成",
+        "选中",
+        "国内电商",
+        "带货"
+      ],
+      "sha256": "dbb8d7feb704a8f9e956d97ba68239db49e16cde9c57de918e488a5b665b2d71"
+    },
+    {
+      "id": "iconpark_cn_vip",
+      "design": "iconpark_vip",
+      "label": "国内电商 · VIP",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": false,
+      "palette": "cn_commerce",
+      "style": "cn_commerce",
+      "collection": "iconpark_cn_commerce",
+      "file": "assets/iconpark_cn_vip.png",
+      "width": 1024,
+      "height": 1024,
+      "license": "Apache-2.0",
+      "license_file": "LICENSE-iconpark.txt",
+      "author": "金磊",
+      "source_repository": "https://github.com/bytedance/IconPark",
+      "source_url": "https://cdn.jsdelivr.net/npm/@icon-park/svg@1.4.2/es/icons/Vip.js",
+      "source_package": "@icon-park/svg@1.4.2",
+      "source_archive_sha256": "fbd548c2d6c3830a56828c9cf09787d61ce2a74a4f398919059e111de17c504b",
+      "source_template_sha256": "563ab925df2a557e5c849a7cc78e1950df182f2a161d0f8c0ec251b8665e4f54",
+      "source_svg": "sources/iconpark/vip.svg",
+      "modifications": "Official multicolor parameters configured red/yellow; SVG rasterized at 1024px. No AI.",
+      "ai_generated": false,
+      "origin_country": "CN",
+      "locale": "zh-CN",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "VIP",
+        "加V",
+        "会员",
+        "国内电商",
+        "带货"
+      ],
+      "sha256": "be415c78a51eea97e46664c21269ef7294cac80501c7792498da4fbcf92d2e6d"
+    },
+    {
+      "id": "iconpark_cn_vip_one",
+      "design": "iconpark_vip-one",
+      "label": "国内电商 · vip",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": false,
+      "palette": "cn_commerce",
+      "style": "cn_commerce",
+      "collection": "iconpark_cn_commerce",
+      "file": "assets/iconpark_cn_vip_one.png",
+      "width": 1024,
+      "height": 1024,
+      "license": "Apache-2.0",
+      "license_file": "LICENSE-iconpark.txt",
+      "author": "杨威",
+      "source_repository": "https://github.com/bytedance/IconPark",
+      "source_url": "https://cdn.jsdelivr.net/npm/@icon-park/svg@1.4.2/es/icons/VipOne.js",
+      "source_package": "@icon-park/svg@1.4.2",
+      "source_archive_sha256": "fbd548c2d6c3830a56828c9cf09787d61ce2a74a4f398919059e111de17c504b",
+      "source_template_sha256": "141f98f1e78ad063729c4a3c9355f6411aa3fe48d6180322422505c936a032ce",
+      "source_svg": "sources/iconpark/vip-one.svg",
+      "modifications": "Official multicolor parameters configured red/yellow; SVG rasterized at 1024px. No AI.",
+      "ai_generated": false,
+      "origin_country": "CN",
+      "locale": "zh-CN",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "vip",
+        "国内电商",
+        "带货"
+      ],
+      "sha256": "f8eaf69a8db9d3a2eaf7725a0a490b95e1860ed29cbfa1f3d72b58fc1fefdbbb"
+    },
+    {
+      "id": "iconpark_cn_shopping",
+      "design": "iconpark_shopping",
+      "label": "国内电商 · 购物车",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": false,
+      "palette": "cn_commerce",
+      "style": "cn_commerce",
+      "collection": "iconpark_cn_commerce",
+      "file": "assets/iconpark_cn_shopping.png",
+      "width": 1024,
+      "height": 1024,
+      "license": "Apache-2.0",
+      "license_file": "LICENSE-iconpark.txt",
+      "author": "刘心乐",
+      "source_repository": "https://github.com/bytedance/IconPark",
+      "source_url": "https://cdn.jsdelivr.net/npm/@icon-park/svg@1.4.2/es/icons/Shopping.js",
+      "source_package": "@icon-park/svg@1.4.2",
+      "source_archive_sha256": "fbd548c2d6c3830a56828c9cf09787d61ce2a74a4f398919059e111de17c504b",
+      "source_template_sha256": "4859e0daef84d4c8d5d82b41132b024189dac585a346cd8fa42fdf85881f6870",
+      "source_svg": "sources/iconpark/shopping.svg",
+      "modifications": "Official multicolor parameters configured red/yellow; SVG rasterized at 1024px. No AI.",
+      "ai_generated": false,
+      "origin_country": "CN",
+      "locale": "zh-CN",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "购物车",
+        "买东西",
+        "消费",
+        "国内电商",
+        "带货"
+      ],
+      "sha256": "1a823b20b404c5a887b4932d65bd6b9bdf93317b051493d30763f50797e59464"
+    },
+    {
+      "id": "iconpark_cn_crown",
+      "design": "iconpark_crown",
+      "label": "国内电商 · 皇冠",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": false,
+      "palette": "cn_commerce",
+      "style": "cn_commerce",
+      "collection": "iconpark_cn_commerce",
+      "file": "assets/iconpark_cn_crown.png",
+      "width": 1024,
+      "height": 1024,
+      "license": "Apache-2.0",
+      "license_file": "LICENSE-iconpark.txt",
+      "author": "金磊",
+      "source_repository": "https://github.com/bytedance/IconPark",
+      "source_url": "https://cdn.jsdelivr.net/npm/@icon-park/svg@1.4.2/es/icons/Crown.js",
+      "source_package": "@icon-park/svg@1.4.2",
+      "source_archive_sha256": "fbd548c2d6c3830a56828c9cf09787d61ce2a74a4f398919059e111de17c504b",
+      "source_template_sha256": "79b827ab03dbb1b5c62ca24a399ccd976942e1b20d8a5cd09a81eb4ac0f99a3e",
+      "source_svg": "sources/iconpark/crown.svg",
+      "modifications": "Official multicolor parameters configured red/yellow; SVG rasterized at 1024px. No AI.",
+      "ai_generated": false,
+      "origin_country": "CN",
+      "locale": "zh-CN",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "皇冠",
+        "王冠",
+        "皇上",
+        "国王",
+        "第一",
+        "权利",
+        "国内电商",
+        "带货"
+      ],
+      "sha256": "733062e26272e5e69fff444d0c50aab44236952359978ed734fab8b7232ed486"
+    },
+    {
+      "id": "3dicons_premium_gift",
+      "design": "3dicons_v1_gift",
+      "label": "高级立体 · 绸带礼盒",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": false,
+      "style": "premium_3d",
+      "palette": "metallic_gold_charcoal",
+      "collection": "premium_commerce_3d_v1",
+      "file": "assets/3dicons_premium_gift.png",
+      "width": 400,
+      "height": 400,
+      "sha256": "d5c7e4f35436e1c2de0769d6139532ee366c419f3bb29dce8b70c90a99599102",
+      "license": "CC0-1.0",
+      "license_file": "LICENSE-3dicons-v1.txt",
+      "author": "Vijay Verma (realvjy)",
+      "source_url": "https://3dicons.sgp1.cdn.digitaloceanspaces.com/v1/dynamic/premium/gift-dynamic-premium.png",
+      "source_metadata": "sources/3dicons-v1/gift.md",
+      "source_metadata_url": "https://raw.githubusercontent.com/realvjy/3dicons/develop/content/3dicons-meta/gift.md",
+      "source_repository": "https://github.com/realvjy/3dicons",
+      "source_collection": "3dicons v1 / dynamic / premium",
+      "modifications": "None. Original downloaded PNG bytes preserved; no artificial source upscaling.",
+      "ai_generated": false,
+      "creation_method": "Artist modelled and rendered in Blender",
+      "provenance_url": "https://3dicons.co/about",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "礼物",
+        "礼盒",
+        "礼包"
+      ]
+    },
+    {
+      "id": "3dicons_premium_bag",
+      "design": "3dicons_v1_bag",
+      "label": "高级立体 · 质感购物袋",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": false,
+      "style": "premium_3d",
+      "palette": "metallic_gold_charcoal",
+      "collection": "premium_commerce_3d_v1",
+      "file": "assets/3dicons_premium_bag.png",
+      "width": 400,
+      "height": 400,
+      "sha256": "e254fb22b18154caeb0bcf8f29bd81b8d2778edebf1d8577e1dd11b0b02094b6",
+      "license": "CC0-1.0",
+      "license_file": "LICENSE-3dicons-v1.txt",
+      "author": "Vijay Verma (realvjy)",
+      "source_url": "https://3dicons.sgp1.cdn.digitaloceanspaces.com/v1/dynamic/premium/bag-dynamic-premium.png",
+      "source_metadata": "sources/3dicons-v1/bag.md",
+      "source_metadata_url": "https://raw.githubusercontent.com/realvjy/3dicons/develop/content/3dicons-meta/bag.md",
+      "source_repository": "https://github.com/realvjy/3dicons",
+      "source_collection": "3dicons v1 / dynamic / premium",
+      "modifications": "None. Original downloaded PNG bytes preserved; no artificial source upscaling.",
+      "ai_generated": false,
+      "creation_method": "Artist modelled and rendered in Blender",
+      "provenance_url": "https://3dicons.co/about",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "购物",
+        "加购",
+        "购买"
+      ]
+    },
+    {
+      "id": "3dicons_premium_heart",
+      "design": "3dicons_v1_heart",
+      "label": "高级立体 · 光泽爱心",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": true,
+      "style": "premium_3d",
+      "palette": "metallic_gold_charcoal",
+      "collection": "premium_commerce_3d_v1",
+      "file": "assets/3dicons_premium_heart.png",
+      "width": 400,
+      "height": 400,
+      "sha256": "90f26d11d4e43e983af581946795cd8944065cc8de45e0e7ec0fe6cad5470939",
+      "license": "CC0-1.0",
+      "license_file": "LICENSE-3dicons-v1.txt",
+      "author": "Vijay Verma (realvjy)",
+      "source_url": "https://3dicons.sgp1.cdn.digitaloceanspaces.com/v1/dynamic/premium/heart-dynamic-premium.png",
+      "source_metadata": "sources/3dicons-v1/heart.md",
+      "source_metadata_url": "https://raw.githubusercontent.com/realvjy/3dicons/develop/content/3dicons-meta/heart.md",
+      "source_repository": "https://github.com/realvjy/3dicons",
+      "source_collection": "3dicons v1 / dynamic / premium",
+      "modifications": "None. Original downloaded PNG bytes preserved; no artificial source upscaling.",
+      "ai_generated": false,
+      "creation_method": "Artist modelled and rendered in Blender",
+      "provenance_url": "https://3dicons.co/about",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "喜欢",
+        "心动",
+        "爱心"
+      ]
+    },
+    {
+      "id": "3dicons_premium_thumb_up",
+      "design": "3dicons_v1_thumb-up",
+      "label": "高级立体 · 立体点赞",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": true,
+      "style": "premium_3d",
+      "palette": "metallic_gold_charcoal",
+      "collection": "premium_commerce_3d_v1",
+      "file": "assets/3dicons_premium_thumb_up.png",
+      "width": 400,
+      "height": 400,
+      "sha256": "fdc07708059fd42cc33ef4becaa41c7051125ce3051b222905a15a9853b1140e",
+      "license": "CC0-1.0",
+      "license_file": "LICENSE-3dicons-v1.txt",
+      "author": "Vijay Verma (realvjy)",
+      "source_url": "https://3dicons.sgp1.cdn.digitaloceanspaces.com/v1/dynamic/premium/thumb-up-dynamic-premium.png",
+      "source_metadata": "sources/3dicons-v1/thumb-up.md",
+      "source_metadata_url": "https://raw.githubusercontent.com/realvjy/3dicons/develop/content/3dicons-meta/thumb-up.md",
+      "source_repository": "https://github.com/realvjy/3dicons",
+      "source_collection": "3dicons v1 / dynamic / premium",
+      "modifications": "None. Original downloaded PNG bytes preserved; no artificial source upscaling.",
+      "ai_generated": false,
+      "creation_method": "Artist modelled and rendered in Blender",
+      "provenance_url": "https://3dicons.co/about",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "点赞",
+        "推荐"
+      ]
+    },
+    {
+      "id": "3dicons_premium_star",
+      "design": "3dicons_v1_star",
+      "label": "高级立体 · 金属星星",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": true,
+      "style": "premium_3d",
+      "palette": "metallic_gold_charcoal",
+      "collection": "premium_commerce_3d_v1",
+      "file": "assets/3dicons_premium_star.png",
+      "width": 400,
+      "height": 400,
+      "sha256": "2274e73426dd32c8cb73c56fd510ce88a9d09ee59332f0b7d9eb6482ea263b84",
+      "license": "CC0-1.0",
+      "license_file": "LICENSE-3dicons-v1.txt",
+      "author": "Vijay Verma (realvjy)",
+      "source_url": "https://3dicons.sgp1.cdn.digitaloceanspaces.com/v1/dynamic/premium/star-dynamic-premium.png",
+      "source_metadata": "sources/3dicons-v1/star.md",
+      "source_metadata_url": "https://raw.githubusercontent.com/realvjy/3dicons/develop/content/3dicons-meta/star.md",
+      "source_repository": "https://github.com/realvjy/3dicons",
+      "source_collection": "3dicons v1 / dynamic / premium",
+      "modifications": "None. Original downloaded PNG bytes preserved; no artificial source upscaling.",
+      "ai_generated": false,
+      "creation_method": "Artist modelled and rendered in Blender",
+      "provenance_url": "https://3dicons.co/about",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "亮点",
+        "星星"
+      ]
+    },
+    {
+      "id": "3dicons_premium_crown",
+      "design": "3dicons_v1_crown",
+      "label": "高级立体 · 鎏金皇冠",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": false,
+      "style": "premium_3d",
+      "palette": "metallic_gold_charcoal",
+      "collection": "premium_commerce_3d_v1",
+      "file": "assets/3dicons_premium_crown.png",
+      "width": 400,
+      "height": 400,
+      "sha256": "491aeb8e70d6ddb374a9933bfa6ab4f55199a24c3124d838e42582da733ea2ea",
+      "license": "CC0-1.0",
+      "license_file": "LICENSE-3dicons-v1.txt",
+      "author": "Vijay Verma (realvjy)",
+      "source_url": "https://3dicons.sgp1.cdn.digitaloceanspaces.com/v1/dynamic/premium/crow-dynamic-premium.png",
+      "source_metadata": "sources/3dicons-v1/crown.md",
+      "source_metadata_url": "https://raw.githubusercontent.com/realvjy/3dicons/develop/content/3dicons-meta/crown.md",
+      "source_repository": "https://github.com/realvjy/3dicons",
+      "source_collection": "3dicons v1 / dynamic / premium",
+      "modifications": "None. Original downloaded PNG bytes preserved; no artificial source upscaling.",
+      "ai_generated": false,
+      "creation_method": "Artist modelled and rendered in Blender",
+      "provenance_url": "https://3dicons.co/about",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "精选",
+        "会员",
+        "皇冠"
+      ]
+    },
+    {
+      "id": "3dicons_premium_medal",
+      "design": "3dicons_v1_medal",
+      "label": "高级立体 · 金属奖章",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": true,
+      "style": "premium_3d",
+      "palette": "metallic_gold_charcoal",
+      "collection": "premium_commerce_3d_v1",
+      "file": "assets/3dicons_premium_medal.png",
+      "width": 400,
+      "height": 400,
+      "sha256": "c56d365e1d3c01764aed24b5f8da9da20a8301f7e71f43c0e273a6610cde54ba",
+      "license": "CC0-1.0",
+      "license_file": "LICENSE-3dicons-v1.txt",
+      "author": "Vijay Verma (realvjy)",
+      "source_url": "https://3dicons.sgp1.cdn.digitaloceanspaces.com/v1/dynamic/premium/medal-dynamic-premium.png",
+      "source_metadata": "sources/3dicons-v1/medal.md",
+      "source_metadata_url": "https://raw.githubusercontent.com/realvjy/3dicons/develop/content/3dicons-meta/medal.md",
+      "source_repository": "https://github.com/realvjy/3dicons",
+      "source_collection": "3dicons v1 / dynamic / premium",
+      "modifications": "None. Original downloaded PNG bytes preserved; no artificial source upscaling.",
+      "ai_generated": false,
+      "creation_method": "Artist modelled and rendered in Blender",
+      "provenance_url": "https://3dicons.co/about",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "推荐",
+        "奖章"
+      ]
+    },
+    {
+      "id": "3dicons_premium_trophy",
+      "design": "3dicons_v1_trophy",
+      "label": "高级立体 · 质感奖杯",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": true,
+      "style": "premium_3d",
+      "palette": "metallic_gold_charcoal",
+      "collection": "premium_commerce_3d_v1",
+      "file": "assets/3dicons_premium_trophy.png",
+      "width": 400,
+      "height": 400,
+      "sha256": "f2134bf823d15d214a9e8f0e3db4b2f44162bb721ae9496222f60c212a9b2a90",
+      "license": "CC0-1.0",
+      "license_file": "LICENSE-3dicons-v1.txt",
+      "author": "Vijay Verma (realvjy)",
+      "source_url": "https://3dicons.sgp1.cdn.digitaloceanspaces.com/v1/dynamic/premium/trophy-dynamic-premium.png",
+      "source_metadata": "sources/3dicons-v1/trophy.md",
+      "source_metadata_url": "https://raw.githubusercontent.com/realvjy/3dicons/develop/content/3dicons-meta/trophy.md",
+      "source_repository": "https://github.com/realvjy/3dicons",
+      "source_collection": "3dicons v1 / dynamic / premium",
+      "modifications": "None. Original downloaded PNG bytes preserved; no artificial source upscaling.",
+      "ai_generated": false,
+      "creation_method": "Artist modelled and rendered in Blender",
+      "provenance_url": "https://3dicons.co/about",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "亮点",
+        "奖杯"
+      ]
+    },
+    {
+      "id": "3dicons_premium_yuan",
+      "design": "3dicons_v1_yuan",
+      "label": "高级立体 · 人民币符号",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": false,
+      "style": "premium_3d",
+      "palette": "metallic_gold_charcoal",
+      "collection": "premium_commerce_3d_v1",
+      "file": "assets/3dicons_premium_yuan.png",
+      "width": 400,
+      "height": 400,
+      "sha256": "3dea1751f573033d4e27589d91d779688b535b34c4734b39978ad1b0309d7d8d",
+      "license": "CC0-1.0",
+      "license_file": "LICENSE-3dicons-v1.txt",
+      "author": "Vijay Verma (realvjy)",
+      "source_url": "https://3dicons.sgp1.cdn.digitaloceanspaces.com/v1/dynamic/premium/yuan-dynamic-premium.png",
+      "source_metadata": "sources/3dicons-v1/yuan.md",
+      "source_metadata_url": "https://raw.githubusercontent.com/realvjy/3dicons/develop/content/3dicons-meta/yuan.md",
+      "source_repository": "https://github.com/realvjy/3dicons",
+      "source_collection": "3dicons v1 / dynamic / premium",
+      "modifications": "None. Original downloaded PNG bytes preserved; no artificial source upscaling.",
+      "ai_generated": false,
+      "creation_method": "Artist modelled and rendered in Blender",
+      "provenance_url": "https://3dicons.co/about",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "价格",
+        "人民币",
+        "优惠"
+      ]
+    },
+    {
+      "id": "3dicons_premium_money_bag",
+      "design": "3dicons_v1_money-bag",
+      "label": "高级立体 · 鎏金福袋",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": false,
+      "style": "premium_3d",
+      "palette": "metallic_gold_charcoal",
+      "collection": "premium_commerce_3d_v1",
+      "file": "assets/3dicons_premium_money_bag.png",
+      "width": 400,
+      "height": 400,
+      "sha256": "bcfaa1d8e56ba4d2b4f8e6e636305c83935b083852fb83b42896a341e9017b17",
+      "license": "CC0-1.0",
+      "license_file": "LICENSE-3dicons-v1.txt",
+      "author": "Vijay Verma (realvjy)",
+      "source_url": "https://3dicons.sgp1.cdn.digitaloceanspaces.com/v1/dynamic/premium/money-bag-dynamic-premium.png",
+      "source_metadata": "sources/3dicons-v1/money-bag.md",
+      "source_metadata_url": "https://raw.githubusercontent.com/realvjy/3dicons/develop/content/3dicons-meta/money-bag.md",
+      "source_repository": "https://github.com/realvjy/3dicons",
+      "source_collection": "3dicons v1 / dynamic / premium",
+      "modifications": "None. Original downloaded PNG bytes preserved; no artificial source upscaling.",
+      "ai_generated": false,
+      "creation_method": "Artist modelled and rendered in Blender",
+      "provenance_url": "https://3dicons.co/about",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "礼包",
+        "福袋"
+      ]
+    },
+    {
+      "id": "3dicons_premium_wallet",
+      "design": "3dicons_v1_wallet",
+      "label": "高级立体 · 质感钱包",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": false,
+      "style": "premium_3d",
+      "palette": "metallic_gold_charcoal",
+      "collection": "premium_commerce_3d_v1",
+      "file": "assets/3dicons_premium_wallet.png",
+      "width": 400,
+      "height": 400,
+      "sha256": "2cf8a76373da9b74bed0f29633a436bf45f019e8938bb6069a39ca533bdb8231",
+      "license": "CC0-1.0",
+      "license_file": "LICENSE-3dicons-v1.txt",
+      "author": "Vijay Verma (realvjy)",
+      "source_url": "https://3dicons.sgp1.cdn.digitaloceanspaces.com/v1/dynamic/premium/wallet-dynamic-premium.png",
+      "source_metadata": "sources/3dicons-v1/wallet.md",
+      "source_metadata_url": "https://raw.githubusercontent.com/realvjy/3dicons/develop/content/3dicons-meta/wallet.md",
+      "source_repository": "https://github.com/realvjy/3dicons",
+      "source_collection": "3dicons v1 / dynamic / premium",
+      "modifications": "None. Original downloaded PNG bytes preserved; no artificial source upscaling.",
+      "ai_generated": false,
+      "creation_method": "Artist modelled and rendered in Blender",
+      "provenance_url": "https://3dicons.co/about",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "钱包",
+        "价格"
+      ]
+    },
+    {
+      "id": "3dicons_premium_megaphone",
+      "design": "3dicons_v1_megaphone",
+      "label": "高级立体 · 立体喇叭",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": true,
+      "style": "premium_3d",
+      "palette": "metallic_gold_charcoal",
+      "collection": "premium_commerce_3d_v1",
+      "file": "assets/3dicons_premium_megaphone.png",
+      "width": 400,
+      "height": 400,
+      "sha256": "6cdcafa55175943028b11bfa50c8aa6dd06da887bc3bda19eae61cd2608274ec",
+      "license": "CC0-1.0",
+      "license_file": "LICENSE-3dicons-v1.txt",
+      "author": "Vijay Verma (realvjy)",
+      "source_url": "https://3dicons.sgp1.cdn.digitaloceanspaces.com/v1/dynamic/premium/megaphone-dynamic-premium.png",
+      "source_metadata": "sources/3dicons-v1/megaphone.md",
+      "source_metadata_url": "https://raw.githubusercontent.com/realvjy/3dicons/develop/content/3dicons-meta/megaphone.md",
+      "source_repository": "https://github.com/realvjy/3dicons",
+      "source_collection": "3dicons v1 / dynamic / premium",
+      "modifications": "None. Original downloaded PNG bytes preserved; no artificial source upscaling.",
+      "ai_generated": false,
+      "creation_method": "Artist modelled and rendered in Blender",
+      "provenance_url": "https://3dicons.co/about",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "提醒",
+        "喇叭",
+        "注意"
+      ]
+    },
+    {
+      "id": "3dicons_premium_flash",
+      "design": "3dicons_v1_flash",
+      "label": "高级立体 · 金属闪电",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": true,
+      "style": "premium_3d",
+      "palette": "metallic_gold_charcoal",
+      "collection": "premium_commerce_3d_v1",
+      "file": "assets/3dicons_premium_flash.png",
+      "width": 400,
+      "height": 400,
+      "sha256": "cc1d653be6b26bfbe493a045cb156380451969fcd1cee3b8ade97b61cffbed23",
+      "license": "CC0-1.0",
+      "license_file": "LICENSE-3dicons-v1.txt",
+      "author": "Vijay Verma (realvjy)",
+      "source_url": "https://3dicons.sgp1.cdn.digitaloceanspaces.com/v1/dynamic/premium/flash-dynamic-premium.png",
+      "source_metadata": "sources/3dicons-v1/flash.md",
+      "source_metadata_url": "https://raw.githubusercontent.com/realvjy/3dicons/develop/content/3dicons-meta/flash.md",
+      "source_repository": "https://github.com/realvjy/3dicons",
+      "source_collection": "3dicons v1 / dynamic / premium",
+      "modifications": "None. Original downloaded PNG bytes preserved; no artificial source upscaling.",
+      "ai_generated": false,
+      "creation_method": "Artist modelled and rendered in Blender",
+      "provenance_url": "https://3dicons.co/about",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "闪电",
+        "重点"
+      ]
+    },
+    {
+      "id": "3dicons_premium_rocket",
+      "design": "3dicons_v1_rocket",
+      "label": "高级立体 · 立体火箭",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": true,
+      "style": "premium_3d",
+      "palette": "metallic_gold_charcoal",
+      "collection": "premium_commerce_3d_v1",
+      "file": "assets/3dicons_premium_rocket.png",
+      "width": 400,
+      "height": 400,
+      "sha256": "f28d462157351b1b191b62f620bbf79d2e2a1b595ba6fdc8200465f0ae1bd52b",
+      "license": "CC0-1.0",
+      "license_file": "LICENSE-3dicons-v1.txt",
+      "author": "Vijay Verma (realvjy)",
+      "source_url": "https://3dicons.sgp1.cdn.digitaloceanspaces.com/v1/dynamic/premium/rocket-dynamic-premium.png",
+      "source_metadata": "sources/3dicons-v1/rocket.md",
+      "source_metadata_url": "https://raw.githubusercontent.com/realvjy/3dicons/develop/content/3dicons-meta/rocket.md",
+      "source_repository": "https://github.com/realvjy/3dicons",
+      "source_collection": "3dicons v1 / dynamic / premium",
+      "modifications": "None. Original downloaded PNG bytes preserved; no artificial source upscaling.",
+      "ai_generated": false,
+      "creation_method": "Artist modelled and rendered in Blender",
+      "provenance_url": "https://3dicons.co/about",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "开始",
+        "火箭"
+      ]
+    },
+    {
+      "id": "3dicons_premium_tick",
+      "design": "3dicons_v1_tick",
+      "label": "高级立体 · 立体勾选",
+      "themes": [
+        "commerce",
+        "general"
+      ],
+      "neutral": true,
+      "style": "premium_3d",
+      "palette": "metallic_gold_charcoal",
+      "collection": "premium_commerce_3d_v1",
+      "file": "assets/3dicons_premium_tick.png",
+      "width": 400,
+      "height": 400,
+      "sha256": "73bb52180c8c5b0a8e95714d4fff3f744237321aa3120710ae29b1b24fa77fcb",
+      "license": "CC0-1.0",
+      "license_file": "LICENSE-3dicons-v1.txt",
+      "author": "Vijay Verma (realvjy)",
+      "source_url": "https://3dicons.sgp1.cdn.digitaloceanspaces.com/v1/dynamic/premium/tick-dynamic-premium.png",
+      "source_metadata": "sources/3dicons-v1/tick.md",
+      "source_metadata_url": "https://raw.githubusercontent.com/realvjy/3dicons/develop/content/3dicons-meta/tick.md",
+      "source_repository": "https://github.com/realvjy/3dicons",
+      "source_collection": "3dicons v1 / dynamic / premium",
+      "modifications": "None. Original downloaded PNG bytes preserved; no artificial source upscaling.",
+      "ai_generated": false,
+      "creation_method": "Artist modelled and rendered in Blender",
+      "provenance_url": "https://3dicons.co/about",
+      "preferred_width_ratio": 0.24,
+      "keywords": [
+        "确认",
+        "勾选",
+        "细节"
+      ]
+    }
+  ]
+}

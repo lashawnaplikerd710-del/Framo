@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "framo-model-gateway",
+  "main": "src/index.mjs",
+  "compatibility_date": "2026-09-28",
+  "workers_dev": true,
+  "preview_urls": false,
+  "observability": {"enabled": true},
+  "durable_objects": {
+    "bindings": [{"name": "QUOTA", "class_name": "QuotaLedger"}]
+  },
+  "migrations": [{"tag": "v1", "new_sqlite_classes": ["QuotaLedger"]}],
+  "vars": {
+    "GLOBAL_DAILY_UNITS": "10000",
+    "GLOBAL_CONCURRENT": "3"
+  }
+}

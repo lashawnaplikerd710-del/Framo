@@ -1,0 +1,5 @@
+IconPark by ByteDance and original designers.
+https://github.com/bytedance/IconPark
+Apache License 2.0.
+Sources: @icon-park/svg 1.4.2.
+Framo modifications: red/yellow official theme, 1024px PNG rasterization. No AI generation.

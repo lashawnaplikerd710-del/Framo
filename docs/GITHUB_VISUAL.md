@@ -34,7 +34,7 @@
 
 1. 将本公开目录内容上传为仓库根目录，保留assets及docs结构，README引用会使用相对路径。
 2. 在仓库Settings的Social preview中选择Edit、Upload an image，上传`assets/github/social-preview.png`。仅把图片提交到assets不会自动设为分享封面。
-3. 仓库About可使用：“面向电商内容的Windows桌面剪辑Agent，支持模型规划、本地渲染与检查点恢复。公开文档和演示，核心源码私有。”
+3. 仓库About可使用：“面向电商内容的Windows桌面剪辑Agent，支持模型规划、本地渲染与检查点恢复。公开源码、文档和演示，MIT 完整开源。”
 4. Topics建议：video-editing、ai-agent、ecommerce、desktop-app、python、tkinter、ffmpeg。
 5. 在GitHub预览中核对图片、四个入口、折叠内容和移动端显示，再单独维护软件Releases附件。
 

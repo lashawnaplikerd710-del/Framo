@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+<title id="title">Framo</title><desc id="desc">F formed by a playhead and two rounded editing clips, in graphite and off-white.</desc>
+<rect x="3" y="3" width="250" height="250" rx="54" fill="#171718" stroke="#343438" stroke-width="2"/>
+<g fill="#f0f0f2"><rect x="62" y="54" width="32" height="150" rx="10"/>
+<rect x="62" y="54" width="136" height="32" rx="10"/>
+<rect x="62" y="116" width="104" height="32" rx="10"/></g>
+</svg>

@@ -1,6 +1,6 @@
 <picture>
   <source media="(max-width: 600px)" srcset="assets/github/hero-mobile.png">
-  <img src="assets/github/hero.png" width="100%" alt="Framo：AI自动剪辑，让素材成为成片。面向电商内容的Windows桌面剪辑Agent；公开文档与演示，核心源码私有。">
+  <img src="assets/github/hero.png" width="100%" alt="Framo：AI自动剪辑，让素材成为成片。面向电商内容的Windows桌面剪辑Agent；完整源码开放，MIT许可。">
 </picture>
 
 # Framo · 电商视频剪辑 Agent
@@ -12,9 +12,11 @@
 [<img src="assets/github/nav-agent.svg" height="44" alt="Agent设计">](docs/AGENT_DESIGN.md)
 [<img src="assets/github/nav-docs.svg" height="44" alt="全部文档">](docs/INDEX.md)
 
-**Windows 桌面 · 模型规划 · 本地渲染 · 核心源码私有**
+**Windows 桌面 · 模型规划 · 本地渲染 · MIT 开源**
 
-本仓库公开产品文档、真实界面与脱敏评估，不包含应用核心源码。现有 **1.3.0 安装版**与本机后续修改存在差异，下载前请查看[安装版核验摘要](docs/INSTALLER_VERIFICATION_1_3_0.md)。
+**2026-11-03 起完整开源。** 桌面剪辑核心、渲染工具、网关实现与测试均已公开，第一方代码采用 [MIT](LICENSE)。[从源码运行](docs/OPEN_SOURCE_SETUP.md) · [剪辑核心](app/agent_core) · [自托管网关](gateway) · [贡献指南](CONTRIBUTING.md)。
+
+模型权重和第三方运行时单独安装；你可以使用自己的模型密钥或自托管网关，无需向作者购买源码使用权。以下产品评估仍保留原快照日期。现有 **1.3.0 安装版**与本机后续修改存在差异，下载前请查看[安装版核验摘要](docs/INSTALLER_VERIFICATION_1_3_0.md)。
 
 ## 在一个工作台，完成剪辑流程
 
@@ -109,4 +111,4 @@
 ---
 
 **Framo** · Local-first video editing, with traceable planning and delivery.  
-Product documentation and demonstrations are public. Application source remains private.
+Full desktop, renderer and gateway source is available under MIT. Third-party components retain their own licenses.

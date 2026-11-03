@@ -6,6 +6,7 @@
 |---|---|
 | 理解产品和需求 | [PRD](PRD.md)、[能力矩阵](CAPABILITIES.md)、[交互规范](UX_SPEC.md) |
 | 理解 Agent 如何执行 | [Agent设计](AGENT_DESIGN.md)、[架构](ARCHITECTURE.md)、[数据模型](DATA_MODEL.md)、[接口契约](API.md) |
+| 从源码运行 | [开源安装与配置](OPEN_SOURCE_SETUP.md)、[自托管网关](../gateway/README.md) |
 | 使用软件 | [安装](INSTALLATION.md)、[安装版核验](INSTALLER_VERIFICATION_1_3_0.md)、[环境](SETUP.md)、[工作流](WORKFLOWS.md)、[示例要求](../examples/BRIEFS.md)、[故障排查](TROUBLESHOOTING.md) |
 | 判断实际落地情况 | [评估](EVALUATION.md)、[案例](CASE_STUDIES.md)、[演示](DEMO.md)、[版本](VERSIONING.md)、[限制](LIMITATIONS.md) |
 | 了解数据和权限 | [隐私](PRIVACY.md)、[安全](../SECURITY.md)、[第三方资源](../THIRD_PARTY_NOTICES.md)、[使用许可](../LICENSE) |
