@@ -8,7 +8,7 @@ from xml.etree import ElementTree
 
 ROOT=Path(__file__).resolve().parents[1]
 ALLOWED_TOP={'.github','assets','docs','evidence','examples','scripts','app','gateway',
-    '.gitignore','README.md','CHANGELOG.md','CONTRIBUTING.md','SECURITY.md','LICENSE','THIRD_PARTY_NOTICES.md','SHA256SUMS.txt','NOTICE'}
+    '.gitignore','.gitattributes','README.md','CHANGELOG.md','CONTRIBUTING.md','SECURITY.md','LICENSE','THIRD_PARTY_NOTICES.md','SHA256SUMS.txt','NOTICE'}
 BANNED_SUFFIXES={'.exe','.dll','.onnx','.safetensors','.sqlite','.sqlite3','.db','.mp4','.wav','.zip','.rar','.log'}
 SCAN_SUFFIXES={'.md','.json','.yml','.yaml','.svg','.py','.txt'}
 

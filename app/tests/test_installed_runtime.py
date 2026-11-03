@@ -13,7 +13,7 @@ from agent_core import installed_runtime, local_voice, workbench
 class InstalledRuntimeTests(unittest.TestCase):
     def test_installed_output_folder_preserves_program_and_checkpoint_protection(self):
         with tempfile.TemporaryDirectory() as raw:
-            root=Path(raw)/'program'; root.mkdir()
+            root=Path(raw).resolve()/'program'; root.mkdir()
             (root/'installed-profile.json').write_text('{"schema":"framo-installed-v1"}')
             app=workbench.Workbench.__new__(workbench.Workbench)
             app.root=root/'UserData'; app.root.mkdir()
@@ -33,7 +33,7 @@ class InstalledRuntimeTests(unittest.TestCase):
 
     def test_all_installed_paths_follow_selected_unicode_location(self):
         with tempfile.TemporaryDirectory() as raw, patch.dict(os.environ, {}, clear=True):
-            root = Path(raw)/'安装目录 with spaces'; root.mkdir()
+            root = Path(raw).resolve()/'安装目录 with spaces'; root.mkdir()
             (root/'installed-profile.json').write_text('{"schema":"framo-installed-v1"}')
             installed_runtime.prepare(root)
             for key in ('JIANYING_AGENT_STATE_DIR','FRAMO_VOICE_CACHE','TEMP','TMP','HF_HOME'):
@@ -42,7 +42,7 @@ class InstalledRuntimeTests(unittest.TestCase):
 
     def test_clean_profile_does_not_discover_legacy_editor(self):
         with tempfile.TemporaryDirectory() as raw:
-            root = Path(raw)
+            root = Path(raw).resolve()
             (root/'installed-profile.json').write_text('{"schema":"framo-installed-v1"}')
             (root/'gateway-endpoint.json').write_text('{"base_url":"https://example.com/v1"}')
             with patch.object(workbench,'ROOT',root), patch.object(workbench,'detect_install') as detect:
@@ -52,7 +52,7 @@ class InstalledRuntimeTests(unittest.TestCase):
 
     def test_generated_voice_is_returned_from_separate_cache(self):
         with tempfile.TemporaryDirectory() as raw:
-            root = Path(raw); library=root/'library'; library.mkdir(); cache=root/'UserData/VoiceCache'
+            root = Path(raw).resolve(); library=root/'library'; library.mkdir(); cache=root/'UserData/VoiceCache'
             def fake_run(cmd, **kwargs):
                 request=json.loads(Path(cmd[-1]).read_text(encoding='utf-8'))
                 self.assertEqual(request['cache_root'],str(cache.resolve()))
